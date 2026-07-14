@@ -1,0 +1,2 @@
+comparison,mean_delta_macro_f1,median_delta_macro_f1,ci_low,ci_high,paired_dz,rank_biserial,n_blocks,bootstrap_samples,bootstrap_seed,ci_method,equivalence,wilcoxon_statistic,p_value,zero_differences,zero_method
+"mean(T1,T2,T3,T4)-T0",-0.028454068979347488,-0.024010971540296855,-0.040086624510807536,-0.01745655434269541,-1.2259600020054195,-0.9333333333333333,15,10000,20260704,percentile paired bootstrap over project-by-system blocks,negative; overlaps -0.02,4.0,0.00042724609375,0,wilcox

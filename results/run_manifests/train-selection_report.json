@@ -1,0 +1,143 @@
+{
+  "by_model_condition": [
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 1500,
+      "strict_parse_rate": 0.9973333333333333,
+      "strict_successes": 1496,
+      "taxonomy_condition": "T0",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 1500,
+      "strict_parse_rate": 0.9806666666666667,
+      "strict_successes": 1471,
+      "taxonomy_condition": "T1",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 1500,
+      "strict_parse_rate": 0.9886666666666667,
+      "strict_successes": 1483,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 1500,
+      "strict_parse_rate": 0.984,
+      "strict_successes": 1476,
+      "taxonomy_condition": "T3",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 1500,
+      "strict_parse_rate": 0.976,
+      "strict_successes": 1464,
+      "taxonomy_condition": "T4",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 1500,
+      "strict_parse_rate": 0.9993333333333333,
+      "strict_successes": 1499,
+      "taxonomy_condition": "T0",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 1500,
+      "strict_parse_rate": 0.9946666666666667,
+      "strict_successes": 1492,
+      "taxonomy_condition": "T1",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 1500,
+      "strict_parse_rate": 0.9973333333333333,
+      "strict_successes": 1496,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 1500,
+      "strict_parse_rate": 0.9986666666666667,
+      "strict_successes": 1498,
+      "taxonomy_condition": "T3",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 1500,
+      "strict_parse_rate": 0.9993333333333333,
+      "strict_successes": 1499,
+      "taxonomy_condition": "T4",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 1500,
+      "strict_parse_rate": 0.9986666666666667,
+      "strict_successes": 1498,
+      "taxonomy_condition": "T0",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 1500,
+      "strict_parse_rate": 0.9833333333333333,
+      "strict_successes": 1475,
+      "taxonomy_condition": "T1",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 1500,
+      "strict_parse_rate": 0.9833333333333333,
+      "strict_successes": 1475,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 1500,
+      "strict_parse_rate": 0.9813333333333333,
+      "strict_successes": 1472,
+      "taxonomy_condition": "T3",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 1500,
+      "strict_parse_rate": 0.986,
+      "strict_successes": 1479,
+      "taxonomy_condition": "T4",
+      "technical_errors": 0
+    }
+  ],
+  "models": [
+    "deepseek-v4-flash",
+    "glm-5.2",
+    "kimi-k2.7-code"
+  ],
+  "rows": 22500,
+  "run_type": "train-selection",
+  "status": "present",
+  "strict_parse_rate": 0.9899111111111111,
+  "strict_parse_successes": 22273,
+  "taxonomy_conditions": [
+    "T0",
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "technical_errors": 0,
+  "unique_issues": 1500
+}

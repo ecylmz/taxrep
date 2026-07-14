@@ -1,0 +1,16 @@
+account_segment,taxonomy_condition,model_revision,request_count,segment_threshold_utc,completed_before_resume_manifest
+after_key_change,T0,accounts/fireworks/models/glm-5p2,604,2026-07-07T07:10:44+00:00,4491
+after_key_change,T1,accounts/fireworks/models/glm-5p2,591,2026-07-07T07:10:44+00:00,4491
+after_key_change,T2,accounts/fireworks/models/glm-5p2,600,2026-07-07T07:10:44+00:00,4491
+after_key_change,T3,accounts/fireworks/models/glm-5p2,600,2026-07-07T07:10:44+00:00,4491
+after_key_change,T4,accounts/fireworks/models/glm-5p2,614,2026-07-07T07:10:44+00:00,4491
+before_key_change,T0,frank/GLM-5.2,769,2026-07-07T07:10:44+00:00,4491
+before_key_change,T0,glm-5.2,127,2026-07-07T07:10:44+00:00,4491
+before_key_change,T1,frank/GLM-5.2,767,2026-07-07T07:10:44+00:00,4491
+before_key_change,T1,glm-5.2,142,2026-07-07T07:10:44+00:00,4491
+before_key_change,T2,frank/GLM-5.2,758,2026-07-07T07:10:44+00:00,4491
+before_key_change,T2,glm-5.2,142,2026-07-07T07:10:44+00:00,4491
+before_key_change,T3,frank/GLM-5.2,746,2026-07-07T07:10:44+00:00,4491
+before_key_change,T3,glm-5.2,154,2026-07-07T07:10:44+00:00,4491
+before_key_change,T4,frank/GLM-5.2,760,2026-07-07T07:10:44+00:00,4491
+before_key_change,T4,glm-5.2,126,2026-07-07T07:10:44+00:00,4491

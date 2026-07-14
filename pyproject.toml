@@ -1,0 +1,53 @@
+[project]
+name = "taxrep-irc"
+version = "0.1.0"
+description = "Reproducible empirical study of taxonomy representation in LLM-based issue report classification."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "httpx",
+  "krippendorff",
+  "matplotlib",
+  "numpy",
+  "openai",
+  "orjson",
+  "pandas",
+  "pyarrow",
+  "pydantic",
+  "pyyaml",
+  "rich",
+  "scikit-learn",
+  "scipy",
+  "statsmodels",
+  "tenacity",
+  "typer",
+]
+
+[project.scripts]
+taxrep = "taxrep.cli:app"
+
+[dependency-groups]
+dev = [
+  "mypy",
+  "pytest",
+  "pytest-cov",
+  "ruff",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/taxrep"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

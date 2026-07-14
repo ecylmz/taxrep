@@ -1,0 +1,90 @@
+# Robustness Completeness
+
+- Complete: `True`
+- Rows: `12150` / `12150`
+- Missing rows: `0`
+- Technical errors: `0`
+
+| Model | Condition | Variant | Repeat | Actual | Expected | Missing | Errors |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-flash | T0 | P1 | 1 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T0 | P1 | 2 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T0 | P1 | 3 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T0 | P2 | 1 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T0 | P2 | 2 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T0 | P2 | 3 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T0 | P3 | 1 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T0 | P3 | 2 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T0 | P3 | 3 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T2 | P1 | 1 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T2 | P1 | 2 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T2 | P1 | 3 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T2 | P2 | 1 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T2 | P2 | 2 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T2 | P2 | 3 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T2 | P3 | 1 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T2 | P3 | 2 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T2 | P3 | 3 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T4 | P1 | 1 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T4 | P1 | 2 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T4 | P1 | 3 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T4 | P2 | 1 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T4 | P2 | 2 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T4 | P2 | 3 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T4 | P3 | 1 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T4 | P3 | 2 | 150 | 150 | 0 | 0 |
+| deepseek-v4-flash | T4 | P3 | 3 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T0 | P1 | 1 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T0 | P1 | 2 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T0 | P1 | 3 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T0 | P2 | 1 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T0 | P2 | 2 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T0 | P2 | 3 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T0 | P3 | 1 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T0 | P3 | 2 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T0 | P3 | 3 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T2 | P1 | 1 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T2 | P1 | 2 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T2 | P1 | 3 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T2 | P2 | 1 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T2 | P2 | 2 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T2 | P2 | 3 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T2 | P3 | 1 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T2 | P3 | 2 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T2 | P3 | 3 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T4 | P1 | 1 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T4 | P1 | 2 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T4 | P1 | 3 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T4 | P2 | 1 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T4 | P2 | 2 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T4 | P2 | 3 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T4 | P3 | 1 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T4 | P3 | 2 | 150 | 150 | 0 | 0 |
+| kimi-k2.7-code | T4 | P3 | 3 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T0 | P1 | 1 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T0 | P1 | 2 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T0 | P1 | 3 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T0 | P2 | 1 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T0 | P2 | 2 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T0 | P2 | 3 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T0 | P3 | 1 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T0 | P3 | 2 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T0 | P3 | 3 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T2 | P1 | 1 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T2 | P1 | 2 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T2 | P1 | 3 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T2 | P2 | 1 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T2 | P2 | 2 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T2 | P2 | 3 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T2 | P3 | 1 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T2 | P3 | 2 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T2 | P3 | 3 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T4 | P1 | 1 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T4 | P1 | 2 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T4 | P1 | 3 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T4 | P2 | 1 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T4 | P2 | 2 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T4 | P2 | 3 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T4 | P3 | 1 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T4 | P3 | 2 | 150 | 150 | 0 | 0 |
+| glm-5.2 | T4 | P3 | 3 | 150 | 150 | 0 | 0 |

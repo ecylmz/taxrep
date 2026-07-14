@@ -1,0 +1,13 @@
+provider_provenance_segment,model_id,taxonomy_condition,canonical_tasks,first_success_utc,last_success_utc,invalid_outputs,empty_outputs
+targeted-t3-repeat-access-window-1,deepseek-v4-flash,T0,271,2026-07-12T04:46:57+00:00,2026-07-12T05:13:52+00:00,0,0
+targeted-t3-repeat-access-window-1,deepseek-v4-flash,T3,256,2026-07-12T04:47:01+00:00,2026-07-12T05:14:00+00:00,1,1
+targeted-t3-repeat-access-window-1,glm-5.2,T0,274,2026-07-12T04:46:57+00:00,2026-07-12T05:13:54+00:00,0,0
+targeted-t3-repeat-access-window-1,glm-5.2,T3,284,2026-07-12T04:47:01+00:00,2026-07-12T05:13:45+00:00,1,0
+targeted-t3-repeat-access-window-1,kimi-k2.7-code,T0,265,2026-07-12T04:47:00+00:00,2026-07-12T05:13:58+00:00,0,0
+targeted-t3-repeat-access-window-1,kimi-k2.7-code,T3,290,2026-07-12T04:46:57+00:00,2026-07-12T05:14:12+00:00,6,6
+targeted-t3-repeat-access-window-2-recovery,deepseek-v4-flash,T0,179,2026-07-12T21:02:28+00:00,2026-07-12T21:21:43+00:00,0,0
+targeted-t3-repeat-access-window-2-recovery,deepseek-v4-flash,T3,194,2026-07-12T21:02:17+00:00,2026-07-12T21:21:41+00:00,3,3
+targeted-t3-repeat-access-window-2-recovery,glm-5.2,T0,176,2026-07-12T21:02:15+00:00,2026-07-12T21:21:44+00:00,0,0
+targeted-t3-repeat-access-window-2-recovery,glm-5.2,T3,166,2026-07-12T21:02:22+00:00,2026-07-12T21:21:46+00:00,0,0
+targeted-t3-repeat-access-window-2-recovery,kimi-k2.7-code,T0,185,2026-07-12T21:02:15+00:00,2026-07-12T21:21:57+00:00,0,0
+targeted-t3-repeat-access-window-2-recovery,kimi-k2.7-code,T3,160,2026-07-12T21:02:15+00:00,2026-07-12T21:21:54+00:00,1,1

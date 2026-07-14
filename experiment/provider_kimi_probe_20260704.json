@@ -1,0 +1,76 @@
+{
+  "records": [
+    {
+      "completed_at_utc": "2026-07-04T13:57:57+00:00",
+      "content": "{\"label\":\"bug\"}",
+      "ok": true,
+      "response_model": "kimi-k2.7-code",
+      "started_at_utc": "2026-07-04T13:57:54+00:00",
+      "usage": {
+        "completion_tokens": 57,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 50,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens": 15,
+        "prompt_tokens_details": null,
+        "total_tokens": 72
+      },
+      "variant": "user_only_minimal"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:57:58+00:00",
+      "content": "{\"label\":\"bug\"}",
+      "ok": true,
+      "response_model": "kimi-k2.7-code",
+      "started_at_utc": "2026-07-04T13:57:57+00:00",
+      "usage": {
+        "cached_tokens": 15,
+        "completion_tokens": 23,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 16,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens": 15,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 15
+        },
+        "total_tokens": 38
+      },
+      "variant": "user_only_no_limits"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:58:01+00:00",
+      "content": "{\"label\": \"bug\"}",
+      "ok": true,
+      "response_model": "kimi-k2.7-code",
+      "started_at_utc": "2026-07-04T13:57:58+00:00",
+      "usage": {
+        "completion_tokens": 100,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 92,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens": 26,
+        "prompt_tokens_details": null,
+        "total_tokens": 126
+      },
+      "variant": "no_temp_top_p"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:58:02+00:00",
+      "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'ModelError', 'message': 'Model opencode-go/kimi-k2.7-code is not supported'}}",
+      "error_type": "AuthenticationError",
+      "ok": false,
+      "started_at_utc": "2026-07-04T13:58:01+00:00",
+      "variant": "prefixed_model"
+    }
+  ]
+}

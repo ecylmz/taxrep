@@ -1,0 +1,35 @@
+{
+  "checkpoint_path": "results/raw_predictions/pilot-e57e7167081271b8.jsonl",
+  "completed_at_utc": "2026-07-04T19:31:16+00:00",
+  "concurrency": {
+    "by_model": {
+      "deepseek-v4-flash": 4,
+      "glm-5.2": 2,
+      "kimi-k2.7-code": 2
+    },
+    "global": 6
+  },
+  "config_path": "configs/pilot.yaml",
+  "environment": {
+    "captured_at_utc": "2026-07-04T18:51:51+00:00",
+    "git_commit": "c8cb32d5c3f6f21586f01dd2dd23db19ed95afec",
+    "machine": "arm64",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "processor": "arm",
+    "python_version": "3.12.11",
+    "uv_version": "uv 0.7.13 (62ed17b23 2025-06-12)"
+  },
+  "git_commit": "c8cb32d5c3f6f21586f01dd2dd23db19ed95afec",
+  "model_ids": [
+    "deepseek-v4-flash",
+    "kimi-k2.7-code",
+    "glm-5.2"
+  ],
+  "parquet_path": "results/raw_predictions/pilot-e57e7167081271b8.parquet",
+  "protocol_version": "1.2",
+  "run_id": "pilot-e57e7167081271b8",
+  "started_at_utc": "2026-07-04T18:51:51+00:00",
+  "task_count_completed_after_run": 2250,
+  "task_count_completed_before_start": 0,
+  "task_count_total": 2250
+}

@@ -1,0 +1,26 @@
+system_id,taxonomy_condition,provider_response_model,canonical_task_count,share_within_system_condition,analysis_status
+deepseek-v4-flash,T0,deepseek-v4-flash,1500,1,post-result operational audit from frozen predictions; no new inference
+deepseek-v4-flash,T1,deepseek-v4-flash,1500,1,post-result operational audit from frozen predictions; no new inference
+deepseek-v4-flash,T2,deepseek-v4-flash,1500,1,post-result operational audit from frozen predictions; no new inference
+deepseek-v4-flash,T3,deepseek-v4-flash,1500,1,post-result operational audit from frozen predictions; no new inference
+deepseek-v4-flash,T4,deepseek-v4-flash,1500,1,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T0,accounts/fireworks/models/glm-5p2,604,0.40266666666666667,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T0,frank/GLM-5.2,769,0.51266666666666671,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T0,glm-5.2,127,0.084666666666666668,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T1,accounts/fireworks/models/glm-5p2,591,0.39400000000000002,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T1,frank/GLM-5.2,767,0.51133333333333331,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T1,glm-5.2,142,0.094666666666666663,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T2,accounts/fireworks/models/glm-5p2,600,0.40000000000000002,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T2,frank/GLM-5.2,758,0.5053333333333333,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T2,glm-5.2,142,0.094666666666666663,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T3,accounts/fireworks/models/glm-5p2,600,0.40000000000000002,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T3,frank/GLM-5.2,746,0.49733333333333335,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T3,glm-5.2,154,0.10266666666666667,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T4,accounts/fireworks/models/glm-5p2,614,0.40933333333333333,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T4,frank/GLM-5.2,760,0.50666666666666671,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T4,glm-5.2,126,0.084000000000000005,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T0,kimi-k2.7-code,1500,1,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T1,kimi-k2.7-code,1500,1,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T2,kimi-k2.7-code,1500,1,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T3,kimi-k2.7-code,1500,1,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T4,kimi-k2.7-code,1500,1,post-result operational audit from frozen predictions; no new inference

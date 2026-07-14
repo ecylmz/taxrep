@@ -1,0 +1,4 @@
+run_type,dataset_split,rows,truncated_rows,max_input_token_count,median_input_token_count,interpretation
+main,test,22500,0,26994,737.0,no preprocessing truncation occurred
+robustness,test,12150,0,22101,725.0,no preprocessing truncation occurred
+train-selection,train,22500,0,87051,730.0,no preprocessing truncation occurred

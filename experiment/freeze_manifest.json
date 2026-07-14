@@ -1,0 +1,210 @@
+{
+  "approved_at_utc": "2026-07-04T18:50:42+00:00",
+  "approved_by": "Codex acting under explicit author instruction (2026-07-04)",
+  "artifact_hashes": [
+    {
+      "exists": true,
+      "path": "protocol/execution_protocol.md",
+      "sha256": "8c36d6b3efa07f66c560418805634f5cbeae333bc0a5e6b9283f18aeda720d45"
+    },
+    {
+      "exists": true,
+      "path": "protocol/analysis_plan.md",
+      "sha256": "0f07c99c46b466d54fefed0ebca0c52d7358b2002a77948a812a766141a3db86"
+    },
+    {
+      "exists": true,
+      "path": "protocol/deviations.md",
+      "sha256": "d5882b599488a59b15e5d6f1126562c99a3948238935e67be302002936116943"
+    },
+    {
+      "exists": true,
+      "path": "protocol/prompt_registry.yaml",
+      "sha256": "61240c10ad4e9025ee99a3c1a78244ad77ef3676867d6af242efe35f967edb64"
+    },
+    {
+      "exists": true,
+      "path": "protocol/prompt_hashes.json",
+      "sha256": "134c0a047dd6429d1e0fe7a54eba10ffdbd0d4383a02917cce8830697bfeb1e1"
+    },
+    {
+      "exists": true,
+      "path": "protocol/taxonomy_equivalence_matrix.md",
+      "sha256": "e0c9f6a317d2d9da85f832cceda3eb73cc7c1ece9c851d36f22cb207284a2792"
+    },
+    {
+      "exists": true,
+      "path": "protocol/model_registry.csv",
+      "sha256": "2698e36bd746866d981ee40d7c93e80aac3320e0b46721a27eecf595bf0743dd"
+    },
+    {
+      "exists": true,
+      "path": "protocol/provider_catalog_snapshot_20260704.json",
+      "sha256": "ea31ec633e022248031c222f9631cebc7ba32bc35795dc31bc4508d02c0958d6"
+    },
+    {
+      "exists": true,
+      "path": "protocol/provider_limits_snapshot_20260704.md",
+      "sha256": "618ae14f123bf3e550c0b4b703c7426e0b1b67d873f0abbd1ce8677c544fed13"
+    },
+    {
+      "exists": true,
+      "path": "protocol/provider_health_20260704.json",
+      "sha256": "617520139e997d5b3d472988908324dfc8d7e3cebde20746049030b3d88dd4e6"
+    },
+    {
+      "exists": true,
+      "path": "configs/models.yaml",
+      "sha256": "5017795c01a0362ff40c52d42185311ea5dc6e5014dd3d0da97c077a77f43473"
+    },
+    {
+      "exists": true,
+      "path": "configs/pilot.yaml",
+      "sha256": "b01fe1a2d9412d9792983e434f87ba94118112954c82eaca4c3c760018b86177"
+    },
+    {
+      "exists": true,
+      "path": "configs/main.yaml",
+      "sha256": "7d4722298de2f8b1964a39c27c34d0845495ed1a951166a97a738271648d27ad"
+    },
+    {
+      "exists": true,
+      "path": "configs/train_selection.yaml",
+      "sha256": "2fcc9180e7e7c35d7c62c75d27663b42390e7bf346b7dee4e2441f7a4f2e2806"
+    },
+    {
+      "exists": true,
+      "path": "configs/robustness.yaml",
+      "sha256": "cebd0b0cb33d9af9aa377ecb56d66768ddf9d2f738a0376aaa683cbfb8fb3eac"
+    },
+    {
+      "exists": true,
+      "path": "configs/technical_pretest.yaml",
+      "sha256": "fe98892860b88edb409f50e4d9c6a86128aeaf86a42614764417a8e0499d59bb"
+    },
+    {
+      "exists": true,
+      "path": "pyproject.toml",
+      "sha256": "562c1cd3bbfe47ba7e0363e9ee606b3641959ae661e95c52a87ab0b6c553572d"
+    },
+    {
+      "exists": true,
+      "path": "uv.lock",
+      "sha256": "d02b70490fc401802992e831a02a1321eb89313ddd465333c70e8d32d3a14b20"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/cli.py",
+      "sha256": "29119061796cd36063579acd49183aca2005b5fcfd6d464ac1ddc041e0188474"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/data.py",
+      "sha256": "6c6175ecdcc08e9ae7c7a853b9f8e195280fa191a1957d822cbb2dcc5614cd07"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/inference.py",
+      "sha256": "884241073a878b9772ed04a6638974e7a408e09db26ec65e5ad2518e20d86cd3"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/providers/opencode_go.py",
+      "sha256": "039b53908e7d85ff995594301d440fa9469e3a28feb7cf8e9ed1a4c98dcc72f0"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/prompts.py",
+      "sha256": "143a25bb8468944c404570d6603ade3b26b9a41777da758b8f26695dbfc1f861"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/parsers.py",
+      "sha256": "bcef1b6163c94fc163aaeeffcc48d8a41f4e6fb0c3bf6bac7e6674e6c67aa4ad"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/metrics.py",
+      "sha256": "e01055e13d91f5caadcb9714b495fb8d9d6d803d47797622d5fb94dc547f8c5c"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/gates.py",
+      "sha256": "44904ef4b6ae538682168f8fbad73a84895a1e8e7263eab03706c5f92ab36aaf"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/runs.py",
+      "sha256": "52f0e3d75a67b307c5f59bc999a8f05e4855080844c98045bb5752b6d147e77e"
+    },
+    {
+      "exists": true,
+      "path": "src/taxrep/reports.py",
+      "sha256": "5cceb57715bc1e8aff22f502792b78801596325861eb3f692a0bbb36acd77497"
+    },
+    {
+      "exists": true,
+      "path": "data/manifests/dataset_download_manifest.json",
+      "sha256": "a76f06944712b1d8d008ca71406627bbd025a38760703bb5d719dd1eb2fa58c7"
+    },
+    {
+      "exists": true,
+      "path": "data/manifests/train_processed_manifest.json",
+      "sha256": "43a6204a45c9f333e045e71bc7ba185392f30cd734b2235e0ddcd4011fc6946d"
+    },
+    {
+      "exists": true,
+      "path": "data/manifests/test_processed_manifest.json",
+      "sha256": "f935c6fc4010a8d6c93b15daa49474162d1b32f33d69d53b64f7531d407d70ea"
+    },
+    {
+      "exists": true,
+      "path": "data/manifests/data_audit.json",
+      "sha256": "959bea853bfa62f4311cf6561e5fa661a834a775390a7fd4284c0327e99b425a"
+    },
+    {
+      "exists": true,
+      "path": "results/data_audit.md",
+      "sha256": "3225fe25881732f2cf1eef6bc438c08e58501ed850bf0ee03a766bbf03dc8e20"
+    }
+  ],
+  "gate": "Gate 2 - Prompt and model freeze",
+  "generated_at_utc": "2026-07-04T18:50:42+00:00",
+  "model_ids": [
+    "deepseek-v4-flash",
+    "kimi-k2.7-code",
+    "glm-5.2"
+  ],
+  "protocol_version": "1.2",
+  "required_human_review_items": [
+    "T1-T4 semantic equivalence matrix",
+    "model registry and provider health records",
+    "protocol deviations DEV-2026-07-04-01..06",
+    "technical pretest completion summary"
+  ],
+  "status": "approved",
+  "technical_pretest": {
+    "by_model": {
+      "deepseek-v4-flash": {
+        "count": 5,
+        "sum": 5
+      },
+      "glm-5.2": {
+        "count": 5,
+        "sum": 5
+      },
+      "kimi-k2.7-code": {
+        "count": 5,
+        "sum": 5
+      }
+    },
+    "files": [
+      "results/raw_predictions/technical-pretest-c50c745b1b8ec17a.jsonl"
+    ],
+    "rows": 15,
+    "status": "present",
+    "strict_parse_rate": 1.0,
+    "strict_parse_successes": 15,
+    "technical_errors": 0
+  }
+}

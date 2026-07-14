@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "finish_reason": "stop",
+      "health_ok": true,
+      "model_id": "deepseek-v4-flash",
+      "response_model": "deepseek-v4-flash",
+      "response_model_compatible": true
+    },
+    {
+      "finish_reason": "stop",
+      "health_ok": true,
+      "model_id": "kimi-k2.7-code",
+      "response_model": "kimi-k2.7-code",
+      "response_model_compatible": true
+    },
+    {
+      "finish_reason": "stop",
+      "health_ok": true,
+      "model_id": "glm-5.2",
+      "response_model": "frank/GLM-5.2",
+      "response_model_compatible": true
+    }
+  ],
+  "completed_at_utc": "2026-07-12T04:45:56+00:00",
+  "completion_call_budget": {
+    "by_kind": {
+      "provider_health": 3
+    },
+    "by_model": {
+      "deepseek-v4-flash": 1,
+      "glm-5.2": 1,
+      "kimi-k2.7-code": 1
+    },
+    "created_at_utc": "2026-07-12T04:45:47+00:00",
+    "hard_cap": 3000,
+    "last_reserved_at_utc": "2026-07-12T04:45:51+00:00",
+    "ledger_path": "results/run_manifests/targeted_t3_repeat_call_ledger.jsonl",
+    "remaining": 2997,
+    "schema_version": 1,
+    "used": 3
+  },
+  "freeze": {
+    "artifact_count": 20,
+    "ok": true,
+    "protocol_commit": "ef660c6cb925ebdba4e5f2ebea40fe1bca85db9c",
+    "task_count": 2700,
+    "task_order_sha256": "45b188787afc4cd9412a78c5c1cf74ab3b0f1646b82561a0a8cd8b6d97d43d34"
+  },
+  "provider_health_artifact": "protocol/provider_health_20260712.json",
+  "schema_version": 1,
+  "status": "passed"
+}

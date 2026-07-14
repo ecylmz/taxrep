@@ -1,0 +1,18 @@
+{
+  "by_kind": {
+    "provider_health": 3,
+    "targeted_inference": 1643
+  },
+  "by_model": {
+    "deepseek-v4-flash": 528,
+    "glm-5.2": 560,
+    "kimi-k2.7-code": 558
+  },
+  "created_at_utc": "2026-07-12T04:45:47+00:00",
+  "hard_cap": 3000,
+  "last_reserved_at_utc": "2026-07-12T05:14:12+00:00",
+  "ledger_path": "results/run_manifests/targeted_t3_repeat_call_ledger.jsonl",
+  "remaining": 1354,
+  "schema_version": 1,
+  "used": 1646
+}

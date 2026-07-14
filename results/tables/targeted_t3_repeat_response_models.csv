@@ -1,0 +1,7 @@
+model_id,taxonomy_condition,response_model,count
+deepseek-v4-flash,T0,deepseek-v4-flash,450
+deepseek-v4-flash,T3,deepseek-v4-flash,450
+glm-5.2,T0,frank/GLM-5.2,450
+glm-5.2,T3,frank/GLM-5.2,450
+kimi-k2.7-code,T0,kimi-k2.7-code,450
+kimi-k2.7-code,T3,kimi-k2.7-code,450

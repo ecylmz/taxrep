@@ -1,0 +1,31 @@
+{
+  "checkpoint_path": "results/raw_predictions/main-deepseek-v4-flash-4808e61b5f12e833.jsonl",
+  "completed_at_utc": "2026-07-06T07:08:19+00:00",
+  "concurrency": {
+    "by_model": {
+      "deepseek-v4-flash": 4
+    },
+    "global": 4
+  },
+  "config_path": "configs/main.yaml",
+  "environment": {
+    "captured_at_utc": "2026-07-06T06:53:59+00:00",
+    "git_commit": "be9904d8d38714eb45957127cfd698fa41602b01",
+    "machine": "arm64",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "processor": "arm",
+    "python_version": "3.12.11",
+    "uv_version": "uv 0.7.13 (62ed17b23 2025-06-12)"
+  },
+  "git_commit": "be9904d8d38714eb45957127cfd698fa41602b01",
+  "model_ids": [
+    "deepseek-v4-flash"
+  ],
+  "parquet_path": "results/raw_predictions/main-deepseek-v4-flash-4808e61b5f12e833.parquet",
+  "protocol_version": "1.2",
+  "run_id": "main-deepseek-v4-flash-4808e61b5f12e833",
+  "started_at_utc": "2026-07-06T06:53:59+00:00",
+  "task_count_completed_after_run": 7500,
+  "task_count_completed_before_start": 6632,
+  "task_count_total": 7500
+}

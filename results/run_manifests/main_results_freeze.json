@@ -1,0 +1,224 @@
+{
+  "frozen_at_utc": "2026-07-07T15:04:43+00:00",
+  "frozen_by": "Codex acting under explicit author instruction (2026-07-04)",
+  "gate": {
+    "checks": [
+      {
+        "detail": "present",
+        "name": "main_present",
+        "ok": true
+      },
+      {
+        "detail": "22500",
+        "name": "expected_rows",
+        "ok": true
+      },
+      {
+        "detail": "1500",
+        "name": "expected_unique_issues",
+        "ok": true
+      },
+      {
+        "detail": "deepseek-v4-flash, glm-5.2, kimi-k2.7-code",
+        "name": "expected_models",
+        "ok": true
+      },
+      {
+        "detail": "T0, T1, T2, T3, T4",
+        "name": "expected_conditions",
+        "ok": true
+      },
+      {
+        "detail": "1.000",
+        "name": "completion_complete",
+        "ok": true
+      },
+      {
+        "detail": "0",
+        "name": "no_technical_errors",
+        "ok": true
+      }
+    ],
+    "expected_rows": 22500,
+    "gate": "Gate 4 - Main Experiment",
+    "generated_at_utc": "2026-07-07T15:04:43+00:00",
+    "pass": true,
+    "summary": {
+      "by_model_condition": [
+        {
+          "model_id": "deepseek-v4-flash",
+          "rows": 1500,
+          "strict_parse_rate": 0.9966666666666667,
+          "strict_successes": 1495,
+          "taxonomy_condition": "T0",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "deepseek-v4-flash",
+          "rows": 1500,
+          "strict_parse_rate": 0.9806666666666667,
+          "strict_successes": 1471,
+          "taxonomy_condition": "T1",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "deepseek-v4-flash",
+          "rows": 1500,
+          "strict_parse_rate": 0.9853333333333333,
+          "strict_successes": 1478,
+          "taxonomy_condition": "T2",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "deepseek-v4-flash",
+          "rows": 1500,
+          "strict_parse_rate": 0.9813333333333333,
+          "strict_successes": 1472,
+          "taxonomy_condition": "T3",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "deepseek-v4-flash",
+          "rows": 1500,
+          "strict_parse_rate": 0.9773333333333334,
+          "strict_successes": 1466,
+          "taxonomy_condition": "T4",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "glm-5.2",
+          "rows": 1500,
+          "strict_parse_rate": 0.994,
+          "strict_successes": 1491,
+          "taxonomy_condition": "T0",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "glm-5.2",
+          "rows": 1500,
+          "strict_parse_rate": 0.9913333333333333,
+          "strict_successes": 1487,
+          "taxonomy_condition": "T1",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "glm-5.2",
+          "rows": 1500,
+          "strict_parse_rate": 0.99,
+          "strict_successes": 1485,
+          "taxonomy_condition": "T2",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "glm-5.2",
+          "rows": 1500,
+          "strict_parse_rate": 0.9953333333333333,
+          "strict_successes": 1493,
+          "taxonomy_condition": "T3",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "glm-5.2",
+          "rows": 1500,
+          "strict_parse_rate": 0.9933333333333333,
+          "strict_successes": 1490,
+          "taxonomy_condition": "T4",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "kimi-k2.7-code",
+          "rows": 1500,
+          "strict_parse_rate": 1.0,
+          "strict_successes": 1500,
+          "taxonomy_condition": "T0",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "kimi-k2.7-code",
+          "rows": 1500,
+          "strict_parse_rate": 0.9893333333333333,
+          "strict_successes": 1484,
+          "taxonomy_condition": "T1",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "kimi-k2.7-code",
+          "rows": 1500,
+          "strict_parse_rate": 0.99,
+          "strict_successes": 1485,
+          "taxonomy_condition": "T2",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "kimi-k2.7-code",
+          "rows": 1500,
+          "strict_parse_rate": 0.9866666666666667,
+          "strict_successes": 1480,
+          "taxonomy_condition": "T3",
+          "technical_errors": 0
+        },
+        {
+          "model_id": "kimi-k2.7-code",
+          "rows": 1500,
+          "strict_parse_rate": 0.986,
+          "strict_successes": 1479,
+          "taxonomy_condition": "T4",
+          "technical_errors": 0
+        }
+      ],
+      "models": [
+        "deepseek-v4-flash",
+        "glm-5.2",
+        "kimi-k2.7-code"
+      ],
+      "rows": 22500,
+      "run_type": "main",
+      "status": "present",
+      "strict_parse_rate": 0.9891555555555556,
+      "strict_parse_successes": 22256,
+      "taxonomy_conditions": [
+        "T0",
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "technical_errors": 0,
+      "unique_issues": 1500
+    }
+  },
+  "gate_report": "results/run_manifests/main_results_gate_report.json",
+  "main_result_files": [
+    {
+      "bytes": 10973185,
+      "path": "results/raw_predictions/main-deepseek-v4-flash-4808e61b5f12e833.jsonl",
+      "sha256": "d3913bd98fba3dc084b20c0fc93ebb2da526f4c96b02fe12ef4ca370ed632dcd"
+    },
+    {
+      "bytes": 19887186,
+      "path": "results/raw_predictions/main-glm-5.2-b0313953f474306e.jsonl",
+      "sha256": "11e9159a6c2ba6b6f3c651253f3bf60aa7a41d9079eaefbbe94bc50fbee5a6e7"
+    },
+    {
+      "bytes": 21059388,
+      "path": "results/raw_predictions/main-kimi-k2.7-code-8a02771c3069f199.jsonl",
+      "sha256": "25bd602f9d350cd27872641d79bfa5d25d1bf37b72b93d15b0b48b29cf68e788"
+    },
+    {
+      "bytes": 785434,
+      "path": "results/raw_predictions/main-deepseek-v4-flash-4808e61b5f12e833.parquet",
+      "sha256": "c96ba9c47d8b228b009d76e89b77f332267a1c854d2afbaa5963b4d0a4edb331"
+    },
+    {
+      "bytes": 844075,
+      "path": "results/raw_predictions/main-glm-5.2-b0313953f474306e.parquet",
+      "sha256": "d04b52b46dfe139203ce467e8ca35d1a7b7e5c1f1cf367fa05a8d4d08168e7a7"
+    },
+    {
+      "bytes": 809304,
+      "path": "results/raw_predictions/main-kimi-k2.7-code-8a02771c3069f199.parquet",
+      "sha256": "3b40c227302a6aacb1c98d779ee31649103dccdccf8faaab554604e5284607c2"
+    }
+  ],
+  "status": "frozen"
+}

@@ -1,0 +1,12 @@
+{
+  "file_count": 300,
+  "github_file_limit_check_passed": true,
+  "largest_file_bytes": 38596202,
+  "manifest_created": true,
+  "raw_prediction_bytes_identical_to_source": true,
+  "raw_prediction_file_count": 19,
+  "required_artifact_map_present": true,
+  "schema_version": 2,
+  "security_scan_passed": true,
+  "total_bytes": 129320091
+}

@@ -1,0 +1,21 @@
+excluded_repository,comparison,observed_delta_macro_f1,negative_repository_system_cell_count,remaining_repository_system_cell_count,remaining_repository_count,remaining_system_count,interval_method,analysis_status
+bitcoin/bitcoin,T1-T0,-0.021057843877684002,10,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+bitcoin/bitcoin,T2-T0,-0.026601438116183151,10,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+bitcoin/bitcoin,T3-T0,-0.034607616495870734,12,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+bitcoin/bitcoin,T4-T0,-0.031060179613277783,11,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+facebook/react,T1-T0,-0.026278348641352905,11,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+facebook/react,T2-T0,-0.027815368029077431,9,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+facebook/react,T3-T0,-0.040083047742919826,12,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+facebook/react,T4-T0,-0.03181020341111488,10,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+microsoft/vscode,T1-T0,-0.025598857752141647,11,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+microsoft/vscode,T2-T0,-0.028307736707910008,10,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+microsoft/vscode,T3-T0,-0.035767374904030848,12,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+microsoft/vscode,T4-T0,-0.032923782821962233,11,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+opencv/opencv,T1-T0,-0.022113982290724005,10,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+opencv/opencv,T2-T0,-0.026434744089681966,10,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+opencv/opencv,T3-T0,-0.035807839723967734,12,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+opencv/opencv,T4-T0,-0.026036250119273758,10,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+tensorflow/tensorflow,T1-T0,-0.016171580536390673,10,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+tensorflow/tensorflow,T2-T0,-0.023643404008015196,9,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+tensorflow/tensorflow,T3-T0,-0.029805483249335508,12,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+tensorflow/tensorflow,T4-T0,-0.027156297456035001,10,12,4,3,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim

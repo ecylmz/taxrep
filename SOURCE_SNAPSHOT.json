@@ -1,0 +1,11 @@
+{
+  "artifact_profile": "public_experiment_code_and_results",
+  "generated_at_utc": "2026-07-14T08:30:00+00:00",
+  "public_release_tag": "v1.0.0",
+  "public_repository": "https://github.com/ecylmz/taxrep",
+  "raw_predictions_transformed": false,
+  "schema_version": 1,
+  "source_base_git_commit": "d1ef2cec3f348e61a7cb193a5138f183c2d22abe",
+  "source_worktree_clean": false,
+  "status": "history_rewrite_pending_code_and_results_snapshot"
+}

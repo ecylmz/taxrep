@@ -1,0 +1,122 @@
+{
+  "base_url": "https://opencode.ai/zen/go/v1",
+  "captured_at_utc": "2026-07-04T18:49:34+00:00",
+  "records": [
+    {
+      "completed_at_utc": "2026-07-04T18:49:29+00:00",
+      "max_tokens_field": "max_tokens",
+      "model_id": "deepseek-v4-flash",
+      "ok": true,
+      "raw_output_preview": "{\"label\":\"bug\"}",
+      "reasoning_observed": true,
+      "reasoning_requested": false,
+      "request_parameters": {
+        "api_max_tokens": 1024,
+        "seed_sent": true,
+        "temperature_sent": true,
+        "top_p_sent": true
+      },
+      "response_headers": {
+        "cf-ray": "a1604f5d9f70cf6b-CMH",
+        "content-type": "application/json",
+        "date": "Sat, 04 Jul 2026 18:49:29 GMT"
+      },
+      "response_model": "deepseek-v4-flash",
+      "seed_supported": true,
+      "started_at_utc": "2026-07-04T18:49:27+00:00",
+      "system_role_supported": true,
+      "temperature_supported": true,
+      "top_p_supported": true,
+      "usage": {
+        "completion_tokens": 62,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 56,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 27,
+        "prompt_tokens": 155,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 128
+        },
+        "total_tokens": 217
+      }
+    },
+    {
+      "completed_at_utc": "2026-07-04T18:49:32+00:00",
+      "max_tokens_field": "max_tokens",
+      "model_id": "kimi-k2.7-code",
+      "ok": true,
+      "raw_output_preview": "{\"label\":\"bug\"}",
+      "reasoning_observed": true,
+      "reasoning_requested": false,
+      "request_parameters": {
+        "api_max_tokens": 1024,
+        "seed_sent": true,
+        "temperature_sent": false,
+        "top_p_sent": false
+      },
+      "response_headers": {
+        "cf-ray": "a1604f68fc3bcf6b-CMH",
+        "content-type": "application/json",
+        "date": "Sat, 04 Jul 2026 18:49:32 GMT"
+      },
+      "response_model": "kimi-k2.7-code",
+      "seed_supported": true,
+      "started_at_utc": "2026-07-04T18:49:29+00:00",
+      "system_role_supported": true,
+      "temperature_supported": false,
+      "top_p_supported": false,
+      "usage": {
+        "completion_tokens": 70,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 63,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens": 77,
+        "prompt_tokens_details": null,
+        "total_tokens": 147
+      }
+    },
+    {
+      "completed_at_utc": "2026-07-04T18:49:34+00:00",
+      "max_tokens_field": "max_tokens",
+      "model_id": "glm-5.2",
+      "ok": true,
+      "raw_output_preview": "{\"label\":\"bug\"}",
+      "reasoning_observed": false,
+      "reasoning_requested": false,
+      "request_parameters": {
+        "api_max_tokens": 1024,
+        "seed_sent": true,
+        "temperature_sent": true,
+        "top_p_sent": true
+      },
+      "response_headers": {
+        "cf-ray": "a1604f7a2ab0cf6b-CMH",
+        "content-type": "application/json",
+        "date": "Sat, 04 Jul 2026 18:49:34 GMT"
+      },
+      "response_model": "frank/GLM-5.2",
+      "seed_supported": true,
+      "started_at_utc": "2026-07-04T18:49:32+00:00",
+      "system_role_supported": true,
+      "temperature_supported": true,
+      "top_p_supported": true,
+      "usage": {
+        "completion_tokens": 44,
+        "completion_tokens_details": null,
+        "estimated_cost": 0,
+        "prompt_tokens": 81,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "total_tokens": 125
+      }
+    }
+  ]
+}

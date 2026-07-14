@@ -1,0 +1,2 @@
+contrast,observed_delta,ci_level,ci_low,ci_high,draws,seed,resampling_unit,joint_fields,repository_system_weighting,repeat_aggregation,multiplicity_adjustment
+T3-T0,-0.01452741950840234,0.95,-0.026693433466332527,-0.0031605516545226,10000,20260711,issue_id within fixed repository,condition x system x repeat,equal,arithmetic mean after repeat-specific contrasts,none; one frozen contrast

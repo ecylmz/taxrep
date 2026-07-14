@@ -1,0 +1,103 @@
+{
+  "analysis_status": "historical protocol output retained for audit; the crossed repository-by-system cells are not treated as independent inferential units",
+  "exploratory_pair_deltas": [
+    {
+      "comparison": "T0-T1",
+      "mean_delta_macro_f1": 0.022244122619658645,
+      "median_delta_macro_f1": 0.018439248832043953
+    },
+    {
+      "comparison": "T0-T2",
+      "mean_delta_macro_f1": 0.026560538190173552,
+      "median_delta_macro_f1": 0.023906493693231612
+    },
+    {
+      "comparison": "T0-T3",
+      "mean_delta_macro_f1": 0.03521427242322493,
+      "median_delta_macro_f1": 0.032190289152478124
+    },
+    {
+      "comparison": "T0-T4",
+      "mean_delta_macro_f1": 0.02979734268433273,
+      "median_delta_macro_f1": 0.024076539990640744
+    },
+    {
+      "comparison": "T1-T2",
+      "mean_delta_macro_f1": 0.004316415570514905,
+      "median_delta_macro_f1": 0.0050478383573793195
+    },
+    {
+      "comparison": "T1-T3",
+      "mean_delta_macro_f1": 0.012970149803566285,
+      "median_delta_macro_f1": 0.011668166434826932
+    },
+    {
+      "comparison": "T1-T4",
+      "mean_delta_macro_f1": 0.007553220064674086,
+      "median_delta_macro_f1": 0.0052076164411332115
+    },
+    {
+      "comparison": "T2-T3",
+      "mean_delta_macro_f1": 0.00865373423305138,
+      "median_delta_macro_f1": 0.007713761446377587
+    },
+    {
+      "comparison": "T2-T4",
+      "mean_delta_macro_f1": 0.003236804494159181,
+      "median_delta_macro_f1": 0.008181207730829976
+    },
+    {
+      "comparison": "T3-T4",
+      "mean_delta_macro_f1": -0.005416929738892199,
+      "median_delta_macro_f1": -0.0077360147428525705
+    }
+  ],
+  "friedman": {
+    "n_blocks": 15,
+    "p_value": 0.000018566717558081592,
+    "statistic": 27.146666666666704
+  },
+  "historical_wilcoxon_holm": [
+    {
+      "comparison": "T1-T0",
+      "holm_adjusted_p": 0.0030517578125,
+      "matched_pairs_rank_biserial": -0.85,
+      "mean_delta_macro_f1": -0.022244122619658645,
+      "median_delta_macro_f1": -0.018439248832043953,
+      "n_blocks": 15,
+      "p_value": 0.00201416015625,
+      "wilcoxon_statistic": 9.0
+    },
+    {
+      "comparison": "T2-T0",
+      "holm_adjusted_p": 0.0030517578125,
+      "matched_pairs_rank_biserial": -0.8666666666666667,
+      "mean_delta_macro_f1": -0.026560538190173552,
+      "median_delta_macro_f1": -0.023906493693231612,
+      "n_blocks": 15,
+      "p_value": 0.00152587890625,
+      "wilcoxon_statistic": 8.0
+    },
+    {
+      "comparison": "T3-T0",
+      "holm_adjusted_p": 0.000244140625,
+      "matched_pairs_rank_biserial": -1.0,
+      "mean_delta_macro_f1": -0.03521427242322493,
+      "median_delta_macro_f1": -0.032190289152478124,
+      "n_blocks": 15,
+      "p_value": 0.00006103515625,
+      "wilcoxon_statistic": 0.0
+    },
+    {
+      "comparison": "T4-T0",
+      "holm_adjusted_p": 0.0025634765625,
+      "matched_pairs_rank_biserial": -0.9,
+      "mean_delta_macro_f1": -0.02979734268433273,
+      "median_delta_macro_f1": -0.024076539990640744,
+      "n_blocks": 15,
+      "p_value": 0.0008544921875,
+      "wilcoxon_statistic": 6.0
+    }
+  ],
+  "legacy_filename_notice": "The filename confirmatory_statistics.json predates the crossed-dependence audit and does not confer confirmatory status."
+}

@@ -1,0 +1,70 @@
+{
+  "empty_response": [
+    {
+      "model_id": "deepseek-v4-flash",
+      "taxonomy_condition": "T0",
+      "issue_id": "test-0309-15789913f2",
+      "sanitized_excerpt": ""
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "taxonomy_condition": "T0",
+      "issue_id": "test-1312-de4dfb634d",
+      "sanitized_excerpt": ""
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "taxonomy_condition": "T0",
+      "issue_id": "test-0461-57cdef16ef",
+      "sanitized_excerpt": ""
+    }
+  ],
+  "explanatory_or_multi_label_text": [
+    {
+      "model_id": "glm-5.2",
+      "taxonomy_condition": "T0",
+      "issue_id": "test-1416-eb0351f813",
+      "sanitized_excerpt": "The user wants to classify a software issue based on the provided text. Allowed labels: bug, feature, question. Issue title: \"OpenCV DNN poor performance on Web\" Issue body: The user describes a feature motivation, askin"
+    },
+    {
+      "model_id": "glm-5.2",
+      "taxonomy_condition": "T0",
+      "issue_id": "test-0849-5ecf44ebdc",
+      "sanitized_excerpt": "1. **Analyze the Request:** * Goal: Classify a software issue into one of three labels: `bug`, `feature`, or `question`. * Input: `ISSUE_DATA` containing a title and a body. * Output: A single JSON object with a single k"
+    },
+    {
+      "model_id": "glm-5.2",
+      "taxonomy_condition": "T0",
+      "issue_id": "test-0150-471bb62fe8",
+      "sanitized_excerpt": "The user wants to classify a software issue based on the provided taxonomy (bug, feature, question). The issue title is \"Expose the `onSelect` event for any focusable element?\". The issue body asks \"Would there be any pr"
+    }
+  ],
+  "malformed_json_with_one_label": [
+    {
+      "model_id": "deepseek-v4-flash",
+      "taxonomy_condition": "T1",
+      "issue_id": "test-0100-a4e0ca423b",
+      "sanitized_excerpt": "{\"label\": \"bug"
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "taxonomy_condition": "T2",
+      "issue_id": "test-1129-3d23b11d5b",
+      "sanitized_excerpt": "```json {\"label\": \"bug\"} ```"
+    },
+    {
+      "model_id": "glm-5.2",
+      "taxonomy_condition": "T2",
+      "issue_id": "test-0625-03c098c32d",
+      "sanitized_excerpt": "```json {\"label\": \"bug\"} ```"
+    }
+  ],
+  "malformed_json_without_label": [
+    {
+      "model_id": "kimi-k2.7-code",
+      "taxonomy_condition": "T3",
+      "issue_id": "test-0933-99b4534110",
+      "sanitized_excerpt": "{\"label"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "base_url": "https://opencode.ai/zen/go/v1",
+  "captured_at_utc": "2026-07-07T06:59:31+00:00",
+  "records": [
+    {
+      "completed_at_utc": "2026-07-07T06:59:29+00:00",
+      "error_message": "Error code: 429 - {'type': 'error', 'error': {'type': 'GoUsageLimitError', 'message': 'Monthly usage limit reached. Resets in 15 days. To continue using this model now, enable usage from your available balance: https://opencode.ai/workspace/wrk_01KKFY3YEV8MMRT7TYS1E75DTE/go'}, 'metadata': {'workspace': 'wrk_01KKFY3YEV8MMRT7TYS1E75DTE', 'limitName': 'monthly'}}",
+      "error_type": "RateLimitError",
+      "max_tokens_field": "max_tokens",
+      "model_id": "minimax-m3",
+      "ok": false,
+      "probe_type": "synthetic_health_check_no_raw_output_recorded",
+      "seed_supported": null,
+      "started_at_utc": "2026-07-07T06:59:27+00:00",
+      "system_role_supported": null,
+      "temperature_supported": null,
+      "top_p_supported": null
+    },
+    {
+      "completed_at_utc": "2026-07-07T06:59:31+00:00",
+      "error_message": "Error code: 429 - {'type': 'error', 'error': {'type': 'GoUsageLimitError', 'message': 'Monthly usage limit reached. Resets in 15 days. To continue using this model now, enable usage from your available balance: https://opencode.ai/workspace/wrk_01KKFY3YEV8MMRT7TYS1E75DTE/go'}, 'metadata': {'workspace': 'wrk_01KKFY3YEV8MMRT7TYS1E75DTE', 'limitName': 'monthly'}}",
+      "error_type": "RateLimitError",
+      "max_tokens_field": "max_tokens",
+      "model_id": "mimo-v2.5-pro",
+      "ok": false,
+      "probe_type": "synthetic_health_check_no_raw_output_recorded",
+      "seed_supported": null,
+      "started_at_utc": "2026-07-07T06:59:29+00:00",
+      "system_role_supported": null,
+      "temperature_supported": null,
+      "top_p_supported": null
+    }
+  ],
+  "selection_context": "candidate replacement for glm-5.2 after persistent monthly quota failures; no test labels used"
+}

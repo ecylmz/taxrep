@@ -1,0 +1,37 @@
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local caches and temporary files
+.cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+__pycache__/
+tmp/
+*.tmp
+*.log
+
+# Upstream and derived local data are reconstructed, never published here.
+data/
+
+# Paper and archive build products are outside this repository's scope.
+paper/
+revision/
+protocol/
+output/
+results/figures/*.tex
+
+# The two sanitized experimental execution logs are intentional results.
+!results/logs/targeted_t3_repeat/inference.log
+!results/logs/targeted_t3_repeat_recovery/inference.log

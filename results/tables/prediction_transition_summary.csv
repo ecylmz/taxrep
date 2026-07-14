@@ -1,0 +1,5 @@
+comparison,correct_both,corrected_by_enrichment,broken_by_enrichment,wrong_both,net_correct_change,n_pairs,changed_prediction_rate
+T1-T0,3160,87,191,1062,-104,4500,0.07111111111111111
+T2-T0,3154,83,197,1066,-114,4500,0.07177777777777777
+T3-T0,3126,85,225,1064,-140,4500,0.07822222222222222
+T4-T0,3141,83,210,1066,-127,4500,0.0748888888888889

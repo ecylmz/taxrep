@@ -1,0 +1,33 @@
+{
+  "catalog": {
+    "model_ids": [
+      "deepseek-v4-flash",
+      "deepseek-v4-pro",
+      "glm-5",
+      "glm-5.1",
+      "glm-5.2",
+      "hy3-preview",
+      "kimi-k2.5",
+      "kimi-k2.6",
+      "kimi-k2.7-code",
+      "mimo-v2-omni",
+      "mimo-v2-pro",
+      "mimo-v2.5",
+      "mimo-v2.5-pro",
+      "minimax-m2.5",
+      "minimax-m2.7",
+      "minimax-m3",
+      "qwen3.5-plus",
+      "qwen3.6-plus",
+      "qwen3.7-max",
+      "qwen3.7-plus"
+    ],
+    "path": "protocol/provider_catalog_snapshot_20260707.json",
+    "sha256": "6339fa9f668bf897bcd10289a8563435233f22aeea62b1182ba3c526e8c7f6ef"
+  },
+  "limits": {
+    "path": "protocol/provider_limits_snapshot_20260707.md",
+    "sha256": "8b8928c43dc0dcdea4d7343ff930588979ddbc458a815d4959f5817185c34c36"
+  },
+  "required_missing": []
+}

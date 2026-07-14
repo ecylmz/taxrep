@@ -1,0 +1,27 @@
+provider:
+  name: opencode-go
+  base_url: https://opencode.ai/zen/go/v1
+  api_key_env: OPENCODE_GO_KEY
+  fallback_api_key_env: OPENCODE_API_KEY
+  api_style: openai-chat-completions
+
+models:
+  - id: deepseek-v4-flash
+    display_name: DeepSeek V4 Flash
+    family: DeepSeek
+  - id: kimi-k2.7-code
+    display_name: Kimi K2.7 Code
+    family: Kimi
+  - id: glm-5.2
+    display_name: GLM-5.2
+    family: GLM
+
+request_overrides:
+  deepseek-v4-flash:
+    api_max_tokens: 1024
+  kimi-k2.7-code:
+    api_max_tokens: 1024
+    omit_temperature: true
+    omit_top_p: true
+  glm-5.2:
+    api_max_tokens: 1024

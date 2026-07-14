@@ -1,0 +1,5 @@
+source,comparison,mean_delta_macro_f1,median_delta_macro_f1,negative_blocks,blocks,issue_count
+main_prompt_on_robustness_sample,T2-T0,0.006603645545094872,0.0,3,15,150
+main_prompt_on_robustness_sample,T4-T0,0.001181241138735086,0.0,4,15,150
+robustness_P1_repeat1,T2-T0,-0.023897524313424193,-0.023366013071895453,8,15,150
+robustness_P1_repeat1,T4-T0,-0.021206635319252917,-0.02855706385118162,9,15,150

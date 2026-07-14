@@ -1,0 +1,6 @@
+comparison,observed_delta_macro_f1,ci_low,ci_high,bootstrap_samples,bootstrap_seed,resampling_unit,equivalence
+T1-T0,-0.02337858112422131,-0.0392251598579623,-0.008279047164351298,10000,20260704,"projects first, then issue ids within sampled projects; all model and condition predictions for each sampled issue are carried together",negative; overlaps -0.02
+T2-T0,-0.027183401224966763,-0.03726184852385933,-0.01751529615226857,10000,20260704,"projects first, then issue ids within sampled projects; all model and condition predictions for each sampled issue are carried together",negative; overlaps -0.02
+T3-T0,-0.03537627037418989,-0.050770176016452985,-0.020485263355084896,10000,20260704,"projects first, then issue ids within sampled projects; all model and condition predictions for each sampled issue are carried together",negative beyond -0.02
+T4-T0,-0.03069861117186079,-0.043778211564989095,-0.017969452838263907,10000,20260704,"projects first, then issue ids within sampled projects; all model and condition predictions for each sampled issue are carried together",negative; overlaps -0.02
+"mean(T1,T2,T3,T4)-T0",-0.02915921597380966,-0.04121213336187653,-0.017474957596593486,10000,20260704,"projects first, then issue ids within sampled projects; all model and condition predictions for each sampled issue are carried together",negative; overlaps -0.02

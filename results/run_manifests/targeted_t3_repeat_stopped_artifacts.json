@@ -1,0 +1,75 @@
+{
+  "artifacts": [
+    {
+      "bytes": 3453700,
+      "path": "results/raw_predictions/targeted-t3-repeat-663908ad29783a37.jsonl",
+      "sha256": "0206a2320b9338ac1385cd02edadd3691f0d97728e6d851c6ac8d91da42ebb35"
+    },
+    {
+      "bytes": 142842,
+      "path": "results/raw_predictions/targeted-t3-repeat-663908ad29783a37.parquet",
+      "sha256": "7cd7fa524503a7fcf748e61391f4863b6f6153ee425c8259eda2c44c0d0ee560"
+    },
+    {
+      "bytes": 2841,
+      "path": "results/run_manifests/targeted-t3-repeat-663908ad29783a37.json",
+      "sha256": "16d8de7b8067c7a45387d67d3e50e3f410efd387960fc046c571a97442a8279a"
+    },
+    {
+      "bytes": 1576,
+      "path": "results/run_manifests/stale_locks/targeted-t3-repeat-663908ad29783a37.stopped.lock.json",
+      "sha256": "ad8cf487565a3e2e22dd664209db1a1c8316938204e8dc79e07b7ebfe7fd32ac"
+    },
+    {
+      "bytes": 486,
+      "path": "results/run_manifests/targeted_t3_repeat_call_budget.json",
+      "sha256": "29033468ed1d8e979a666800a4f76bb4ae3ca2245ae30355fddbd9afac5b57cf"
+    },
+    {
+      "bytes": 429443,
+      "path": "results/run_manifests/targeted_t3_repeat_call_ledger.jsonl",
+      "sha256": "3af9140c8608360442079b976ae61fd7cc7a1311829cb4b21995ac968bee76f2"
+    },
+    {
+      "bytes": 1498,
+      "path": "results/run_manifests/targeted_t3_repeat_preflight.json",
+      "sha256": "b693790bdcecf2a52217b97ec4c686dc9b541ff4e616bcdf6cd7aa4045dbbdd1"
+    },
+    {
+      "bytes": 4371,
+      "path": "protocol/provider_health_20260712.json",
+      "sha256": "ea79676bdbd3ea1937b3a94e60a43fbe70a415cfadd63a6147f8edc112c4bcef"
+    },
+    {
+      "bytes": 0,
+      "path": "results/logs/targeted_t3_repeat/inference.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 11014,
+      "path": "src/taxrep/providers/opencode_go.py",
+      "sha256": "fc6446565422d2dae90e2007f1517a2944b4d33982b994248c48f54e18ebceed"
+    },
+    {
+      "bytes": 116007,
+      "path": "uv.lock",
+      "sha256": "d02b70490fc401802992e831a02a1321eb89313ddd465333c70e8d32d3a14b20"
+    }
+  ],
+  "canonical_completed_tasks": 1640,
+  "gold_labels_accessed": false,
+  "handling_rule": "Preserve append-only for audit; do not compute partial performance, agreement, or prompt-selection results.",
+  "missing_tasks": 1060,
+  "outbound_http_attempt_count_mechanical_range": [
+    1643,
+    4938
+  ],
+  "outbound_http_attempt_count_status": "not reconstructible",
+  "planned_tasks": 2700,
+  "project_level_ledger_reservations": 1646,
+  "schema_version": 1,
+  "scientific_result_eligible": false,
+  "status": "stopped_pre_result",
+  "stop_reason_code": "unmetered_sdk_internal_retries",
+  "stopped_at_utc": "2026-07-12T05:17:59+00:00"
+}

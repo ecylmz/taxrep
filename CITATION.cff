@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "A Paired Fixed-Benchmark Study of Operational Taxonomy Enrichment for LLM-Based Issue Classification"
+message: "If you use this artifact, please cite the associated paper once available."
+authors:
+  - family-names: "Yilmaz"
+    given-names: "Emre Can"
+    orcid: "https://orcid.org/0000-0003-4365-9131"
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-14"
+repository-code: "https://github.com/ecylmz/taxrep"
+url: "https://github.com/ecylmz/taxrep/releases/tag/v1.0.0"

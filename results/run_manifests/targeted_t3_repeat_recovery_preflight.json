@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "finish_reason": "stop",
+      "health_ok": true,
+      "model_id": "deepseek-v4-flash",
+      "response_model": "deepseek-v4-flash",
+      "response_model_compatible": true
+    },
+    {
+      "finish_reason": "stop",
+      "health_ok": true,
+      "model_id": "kimi-k2.7-code",
+      "response_model": "kimi-k2.7-code",
+      "response_model_compatible": true
+    },
+    {
+      "finish_reason": "stop",
+      "health_ok": true,
+      "model_id": "glm-5.2",
+      "response_model": "frank/GLM-5.2",
+      "response_model_compatible": true
+    }
+  ],
+  "completed_at_utc": "2026-07-12T21:01:42+00:00",
+  "completion_call_budget": {
+    "by_kind": {
+      "provider_health": 3
+    },
+    "by_model": {
+      "deepseek-v4-flash": 1,
+      "glm-5.2": 1,
+      "kimi-k2.7-code": 1
+    },
+    "created_at_utc": "2026-07-12T21:01:35+00:00",
+    "hard_cap": 1360,
+    "last_reserved_at_utc": "2026-07-12T21:01:40+00:00",
+    "ledger_path": "results/run_manifests/targeted_t3_repeat_recovery_call_ledger.jsonl",
+    "remaining": 1357,
+    "schema_version": 1,
+    "used": 3
+  },
+  "conservative_revision_http_attempt_upper_bound_after_preflight": 4941,
+  "freeze": {
+    "artifact_count": 35,
+    "missing_tasks": 1060,
+    "ok": true,
+    "prior_successful_tasks": 1640,
+    "protocol_commit": "38171a8",
+    "recovery_http_attempt_hard_cap": 1360,
+    "revision_http_attempt_hard_cap": 6298,
+    "task_count": 2700,
+    "task_order_sha256": "45b188787afc4cd9412a78c5c1cf74ab3b0f1646b82561a0a8cd8b6d97d43d34"
+  },
+  "provider_catalog_artifact": "protocol/provider_catalog_snapshot_20260712_targeted_recovery.json",
+  "provider_catalog_sha256": "40fb9fae7c315f903ed64dea3eeb371b4712740e40e3c5883c08e3e8eb3eb1dc",
+  "provider_health_artifact": "protocol/provider_health_20260712_targeted_recovery.json",
+  "provider_health_sha256": "bdd8237a2cc1e75a0ba8170284129ce287d67a1f503e76217cf2bad0a94feda8",
+  "schema_version": 1,
+  "status": "passed"
+}

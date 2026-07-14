@@ -1,0 +1,5 @@
+source,comparison,observed_delta_macro_f1,median_repository_system_cell_delta_macro_f1,negative_repository_system_cell_count,repository_system_cell_count,sample_issue_count,interval_method,analysis_status
+canonical main P1 repeat 1 on fixed robustness sample,T1-T0,-0.0066198851170544918,0,7,15,150,none; point-estimate sample sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+canonical main P1 repeat 1 on fixed robustness sample,T2-T0,0.006603645545094872,0,3,15,150,none; point-estimate sample sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+canonical main P1 repeat 1 on fixed robustness sample,T3-T0,-0.016932790213342389,0,7,15,150,none; point-estimate sample sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+canonical main P1 repeat 1 on fixed robustness sample,T4-T0,0.0011812411387350859,0,4,15,150,none; point-estimate sample sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim

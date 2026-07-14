@@ -1,0 +1,7 @@
+evidence,issue_count,repeat_id,delta_t3_minus_t0,interpretation
+full_main_1500,1500,,-0.03521427242322493,full fixed main benchmark
+main_p1_same_150_issue_sample,150,,-0.01693279021334239,sampling plus original execution on the fixed robustness sample
+targeted_new_repeat,150,1.0,-0.00396932782209698,new repeated execution on the same fixed sample
+targeted_new_repeat,150,2.0,-0.029604994968723323,new repeated execution on the same fixed sample
+targeted_new_repeat,150,3.0,-0.010007935734386719,new repeated execution on the same fixed sample
+targeted_repeat_average,150,,-0.01452741950840234,arithmetic mean of the three frozen new repeats

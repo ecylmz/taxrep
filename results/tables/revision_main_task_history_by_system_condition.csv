@@ -1,0 +1,16 @@
+system_id,taxonomy_condition,canonical_task_count,unique_raw_task_count,raw_checkpoint_record_count,terminal_error_checkpoint_record_count,unique_terminal_error_task_count,recovered_after_terminal_error_task_count,unresolved_raw_task_count,canonical_invalid_output_count,canonical_empty_response_count,first_success_start_utc,last_success_end_utc,analysis_status
+deepseek-v4-flash,T0,1500,1500,1684,184,184,184,0,5,5,2026-07-05T05:33:14+00:00,2026-07-06T07:08:11+00:00,post-result operational audit from frozen predictions; no new inference
+deepseek-v4-flash,T1,1500,1500,1658,158,158,158,0,29,28,2026-07-05T05:33:11+00:00,2026-07-06T07:08:19+00:00,post-result operational audit from frozen predictions; no new inference
+deepseek-v4-flash,T2,1500,1500,1682,182,182,182,0,22,21,2026-07-05T05:33:07+00:00,2026-07-06T07:08:12+00:00,post-result operational audit from frozen predictions; no new inference
+deepseek-v4-flash,T3,1500,1500,1674,174,174,174,0,28,28,2026-07-05T05:33:11+00:00,2026-07-06T07:08:02+00:00,post-result operational audit from frozen predictions; no new inference
+deepseek-v4-flash,T4,1500,1500,1670,170,170,170,0,34,34,2026-07-05T05:33:07+00:00,2026-07-06T07:08:10+00:00,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T0,1500,1500,2865,1365,604,604,0,9,6,2026-07-06T13:32:27+00:00,2026-07-07T09:26:39+00:00,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T1,1500,1500,2852,1352,591,591,0,13,6,2026-07-06T13:32:08+00:00,2026-07-07T09:26:41+00:00,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T2,1500,1500,2858,1358,600,600,0,15,5,2026-07-06T13:31:57+00:00,2026-07-07T09:26:43+00:00,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T3,1500,1500,2864,1364,600,600,0,7,4,2026-07-06T13:32:05+00:00,2026-07-07T09:26:14+00:00,post-result operational audit from frozen predictions; no new inference
+glm-5.2,T4,1500,1500,2904,1404,614,614,0,10,6,2026-07-06T13:31:57+00:00,2026-07-07T09:26:33+00:00,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T0,1500,1500,3000,1500,1500,1500,0,0,0,2026-07-06T07:08:48+00:00,2026-07-06T13:31:52+00:00,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T1,1500,1500,3000,1500,1500,1500,0,16,16,2026-07-06T07:08:37+00:00,2026-07-06T13:31:53+00:00,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T2,1500,1500,3000,1500,1500,1500,0,15,15,2026-07-06T07:08:21+00:00,2026-07-06T13:31:55+00:00,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T3,1500,1500,3000,1500,1500,1500,0,20,19,2026-07-06T07:08:34+00:00,2026-07-06T13:31:21+00:00,post-result operational audit from frozen predictions; no new inference
+kimi-k2.7-code,T4,1500,1500,3000,1500,1500,1500,0,21,21,2026-07-06T07:08:21+00:00,2026-07-06T13:31:47+00:00,post-result operational audit from frozen predictions; no new inference

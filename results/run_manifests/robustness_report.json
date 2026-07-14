@@ -1,0 +1,93 @@
+{
+  "by_model_condition": [
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 1350,
+      "strict_parse_rate": 0.997037037037037,
+      "strict_successes": 1346,
+      "taxonomy_condition": "T0",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 1350,
+      "strict_parse_rate": 0.9962962962962963,
+      "strict_successes": 1345,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 1350,
+      "strict_parse_rate": 0.9918518518518519,
+      "strict_successes": 1339,
+      "taxonomy_condition": "T4",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 1350,
+      "strict_parse_rate": 0.9955555555555555,
+      "strict_successes": 1344,
+      "taxonomy_condition": "T0",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 1350,
+      "strict_parse_rate": 0.997037037037037,
+      "strict_successes": 1346,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 1350,
+      "strict_parse_rate": 0.9992592592592593,
+      "strict_successes": 1349,
+      "taxonomy_condition": "T4",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 1350,
+      "strict_parse_rate": 1.0,
+      "strict_successes": 1350,
+      "taxonomy_condition": "T0",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 1350,
+      "strict_parse_rate": 0.9918518518518519,
+      "strict_successes": 1339,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 1350,
+      "strict_parse_rate": 0.9925925925925926,
+      "strict_successes": 1340,
+      "taxonomy_condition": "T4",
+      "technical_errors": 0
+    }
+  ],
+  "models": [
+    "deepseek-v4-flash",
+    "glm-5.2",
+    "kimi-k2.7-code"
+  ],
+  "rows": 12150,
+  "run_type": "robustness",
+  "status": "present",
+  "strict_parse_rate": 0.9957201646090535,
+  "strict_parse_successes": 12098,
+  "taxonomy_conditions": [
+    "T0",
+    "T2",
+    "T4"
+  ],
+  "technical_errors": 0,
+  "unique_issues": 150
+}

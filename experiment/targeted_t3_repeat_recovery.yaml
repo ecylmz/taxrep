@@ -1,0 +1,72 @@
+protocol_id: TAXREP-IRC-T3-REPEAT-RECOVERY-2026
+protocol_version: "1.0"
+run_type: targeted-t3-repeat
+scientific_status: post-result-budget-constrained-targeted-robustness-extension-recovery
+freeze_revision: 20260712-targeted-t0-t3-p1-r3-missing-only-recovery
+dataset_split: test
+sample:
+  strategy: issue_id_manifest
+  manifest: protocol/targeted_t3_repeat_sample.json
+  expected_count: 150
+  source_run_type: robustness
+  source_selection_seed: 20260704
+  source_per_project_label: 10
+taxonomy_conditions: [T0, T3]
+instruction_variants: [P1]
+repeats: 3
+repeat_seeds: [4409, 5501, 6607]
+temperature: 0.0
+top_p: 1.0
+max_new_tokens: 32
+execution_order: deterministic_shuffle
+execution_seed: 20260711
+systems:
+  - deepseek-v4-flash
+  - kimi-k2.7-code
+  - glm-5.2
+concurrency:
+  global: 6
+  by_model:
+    deepseek-v4-flash: 4
+    kimi-k2.7-code: 2
+    glm-5.2: 2
+retry:
+  max_attempts: 3
+  timeout_seconds: 120
+sdk_max_retries: 0
+provenance_segment: targeted-t3-repeat-access-window-2-recovery
+response_model_compatibility:
+  deepseek-v4-flash: [deepseek]
+  kimi-k2.7-code: [kimi]
+  glm-5.2: [glm]
+completion_call_budget:
+  hard_cap: 1360
+  summary_path: results/run_manifests/targeted_t3_repeat_recovery_call_budget.json
+  ledger_path: results/run_manifests/targeted_t3_repeat_recovery_call_ledger.jsonl
+recovery:
+  mode: missing-successful-task-keys-only
+  successful_checkpoint_paths:
+    - results/raw_predictions/targeted-t3-repeat-663908ad29783a37.jsonl
+  stopped_artifact_manifest: results/run_manifests/targeted_t3_repeat_stopped_artifacts.json
+  expected_prior_successful_tasks: 1640
+  expected_missing_tasks: 1060
+  historical_http_attempt_upper_bound: 4938
+  recovery_http_attempt_hard_cap: 1360
+  revision_http_attempt_hard_cap: 6298
+  planned_health_calls: 3
+  explicit_retry_reserve: 297
+provider_catalog_snapshot: protocol/provider_catalog_snapshot_20260712_targeted_recovery.json
+provider_health_artifact: protocol/provider_health_20260712_targeted_recovery.json
+stop_rules:
+  max_unresolved_technical_error_fraction: 0.01
+analysis:
+  primary_contrast: T3-T0
+  unit_weighting: equal_repository_by_system_cells
+  repeat_aggregation: report_each_then_arithmetic_mean
+  bootstrap_draws: 10000
+  bootstrap_seed: 20260711
+  bootstrap_unit: issue_id_within_fixed_repository
+  bootstrap_joint_fields: [taxonomy_condition, model_id, repeat_id]
+  interval: percentile_95_single_contrast
+  multiplicity_adjustment: none_single_contrast
+  conditional_permutation: omitted_to_limit_post_result_flexibility

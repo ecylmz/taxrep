@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "completed_at_utc": "2026-07-04T13:59:32+00:00",
+      "content": "{\"label\":\"bug\"}",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:59:28+00:00",
+      "usage": {
+        "cached_tokens": 48,
+        "completion_tokens": 96,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 89,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens": 48,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 48
+        },
+        "total_tokens": 144
+      },
+      "variant": "seed_only"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:59:34+00:00",
+      "content": "{\"label\":\"bug\"}",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:59:32+00:00",
+      "usage": {
+        "cached_tokens": 48,
+        "completion_tokens": 56,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 49,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens": 48,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 48
+        },
+        "total_tokens": 104
+      },
+      "variant": "seed_temp_omitted_top_p_omitted"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "records": [
+    {
+      "completed_at_utc": "2026-07-04T13:58:47+00:00",
+      "content": "",
+      "model_id": "deepseek-v4-flash",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:58:46+00:00",
+      "usage": {
+        "completion_tokens": 32,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 32,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 120,
+        "prompt_tokens": 120,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 152
+      },
+      "variant": "max32_no_sampling"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:58:49+00:00",
+      "content": "",
+      "model_id": "deepseek-v4-flash",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:58:47+00:00",
+      "usage": {
+        "completion_tokens": 64,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 64,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 120,
+        "prompt_tokens": 120,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 184
+      },
+      "variant": "max64_no_sampling"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:58:51+00:00",
+      "content": "",
+      "model_id": "deepseek-v4-flash",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:58:49+00:00",
+      "usage": {
+        "completion_tokens": 96,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 96,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 120,
+        "prompt_tokens": 120,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 216
+      },
+      "variant": "max96_no_sampling"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:58:52+00:00",
+      "content": "",
+      "model_id": "deepseek-v4-flash",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:58:51+00:00",
+      "usage": {
+        "completion_tokens": 32,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 32,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 120,
+        "prompt_tokens": 120,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 152
+      },
+      "variant": "max32_temp_top_p"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:58:53+00:00",
+      "content": "",
+      "model_id": "glm-5.2",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:58:52+00:00",
+      "usage": {
+        "completion_tokens": 32,
+        "completion_tokens_details": null,
+        "estimated_cost": 0,
+        "prompt_tokens": 50,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "total_tokens": 82
+      },
+      "variant": "max32_no_sampling"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:59:02+00:00",
+      "content": "",
+      "model_id": "glm-5.2",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:58:53+00:00",
+      "usage": {
+        "completion_tokens": 64,
+        "completion_tokens_details": null,
+        "estimated_cost": 0,
+        "prompt_tokens": 50,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "total_tokens": 114
+      },
+      "variant": "max64_no_sampling"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:59:03+00:00",
+      "content": "{\"label\":\"bug\"}",
+      "model_id": "glm-5.2",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:59:02+00:00",
+      "usage": {
+        "completion_tokens": 27,
+        "completion_tokens_details": null,
+        "estimated_cost": 0,
+        "prompt_tokens": 50,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "total_tokens": 77
+      },
+      "variant": "max96_no_sampling"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:59:05+00:00",
+      "content": "",
+      "model_id": "glm-5.2",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:59:03+00:00",
+      "usage": {
+        "completion_tokens": 32,
+        "completion_tokens_details": null,
+        "estimated_cost": 0,
+        "prompt_tokens": 50,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "total_tokens": 82
+      },
+      "variant": "max32_temp_top_p"
+    }
+  ]
+}

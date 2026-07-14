@@ -1,0 +1,59 @@
+{
+  "bootstrap": {
+    "ci_high": -0.0031605516545226,
+    "ci_level": 0.95,
+    "ci_low": -0.026693433466332527,
+    "contrast": "T3-T0",
+    "draws": 10000,
+    "joint_fields": "condition x system x repeat",
+    "multiplicity_adjustment": "none; one frozen contrast",
+    "observed_delta": -0.01452741950840234,
+    "repeat_aggregation": "arithmetic mean after repeat-specific contrasts",
+    "repository_system_weighting": "equal",
+    "resampling_unit": "issue_id within fixed repository",
+    "seed": 20260711
+  },
+  "canonical_tasks": 2700,
+  "generated_at_utc": "2026-07-12T21:23:39+00:00",
+  "negative_system_repeat_cells": 6,
+  "output_files": [
+    "targeted_t3_repeat_agreement.csv",
+    "targeted_t3_repeat_both_valid_cells.csv",
+    "targeted_t3_repeat_comparison.csv",
+    "targeted_t3_repeat_effective_parameters.csv",
+    "targeted_t3_repeat_exact_cells.csv",
+    "targeted_t3_repeat_finish_reasons.csv",
+    "targeted_t3_repeat_invalid_rates.csv",
+    "targeted_t3_repeat_lenient_cells.csv",
+    "targeted_t3_repeat_provenance.csv",
+    "targeted_t3_repeat_repeat_deltas.csv",
+    "targeted_t3_repeat_repository_deltas.csv",
+    "targeted_t3_repeat_response_models.csv",
+    "targeted_t3_repeat_system_deltas.csv",
+    "targeted_t3_repeat_system_repeat_deltas.csv",
+    "targeted_t3_repeat_bootstrap.csv",
+    "targeted_t3_repeat_parsing_summary.csv"
+  ],
+  "parsing_summary": [
+    {
+      "minimum_cell_n": 30,
+      "mode": "exact",
+      "repeat_averaged_delta_t3_minus_t0": -0.01452741950840234
+    },
+    {
+      "minimum_cell_n": 30,
+      "mode": "lenient",
+      "repeat_averaged_delta_t3_minus_t0": -0.01472495037259987
+    },
+    {
+      "minimum_cell_n": 28,
+      "mode": "both_valid",
+      "repeat_averaged_delta_t3_minus_t0": -0.014709787267763173
+    }
+  ],
+  "repeat_averaged_exact_delta_t3_minus_t0": -0.01452741950840234,
+  "schema_version": 1,
+  "scientific_status": "post-result, budget-constrained, targeted robustness extension",
+  "system_repeat_cells": 9,
+  "unique_issues": 150
+}

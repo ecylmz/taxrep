@@ -1,0 +1,261 @@
+{
+  "artifact_hashes": [
+    {
+      "path": "protocol/targeted_t3_repeat_extension.md",
+      "sha256": "fc4c878cf6e5e3ad9431e6a89bc70b7856e90f061f4ebe99d18aadd22d55a070"
+    },
+    {
+      "path": "protocol/targeted_t3_repeat_extension.yaml",
+      "sha256": "2b1610a17c49a8beff5debef6829b429094652b4762b1057ea2647b00bc323f1"
+    },
+    {
+      "path": "protocol/targeted_t3_repeat_sample.json",
+      "sha256": "069af72a44f3831a70e09a25b046f8801bf455227fc6e27f665e4f84f61c8ff6"
+    },
+    {
+      "path": "protocol/prompt_registry.yaml",
+      "sha256": "61240c10ad4e9025ee99a3c1a78244ad77ef3676867d6af242efe35f967edb64"
+    },
+    {
+      "path": "protocol/prompt_hashes.json",
+      "sha256": "134c0a047dd6429d1e0fe7a54eba10ffdbd0d4383a02917cce8830697bfeb1e1"
+    },
+    {
+      "path": "protocol/model_registry.csv",
+      "sha256": "2698e36bd746866d981ee40d7c93e80aac3320e0b46721a27eecf595bf0743dd"
+    },
+    {
+      "path": "configs/models.yaml",
+      "sha256": "5017795c01a0362ff40c52d42185311ea5dc6e5014dd3d0da97c077a77f43473"
+    },
+    {
+      "path": "data/manifests/test_processed_manifest.json",
+      "sha256": "f935c6fc4010a8d6c93b15daa49474162d1b32f33d69d53b64f7531d407d70ea"
+    },
+    {
+      "path": "results/run_manifests/main_results_freeze.json",
+      "sha256": "33dc9650f5cd513ff2b131081d424acd720272636cbc061d592abb2b5791388e"
+    },
+    {
+      "path": "src/taxrep/call_budget.py",
+      "sha256": "a949b401a8a1b285937d388d51bb74480d78e1f3264657ee7f2f9b53a88d14e0"
+    },
+    {
+      "path": "src/taxrep/inference.py",
+      "sha256": "a712e3ef5d206d5d9723feb296da645d65c356d63c769c5f61dbbad35dab9cb2"
+    },
+    {
+      "path": "src/taxrep/parsers.py",
+      "sha256": "bcef1b6163c94fc163aaeeffcc48d8a41f4e6fb0c3bf6bac7e6674e6c67aa4ad"
+    },
+    {
+      "path": "src/taxrep/providers/opencode_go.py",
+      "sha256": "fc6446565422d2dae90e2007f1517a2944b4d33982b994248c48f54e18ebceed"
+    },
+    {
+      "path": "src/taxrep/runs.py",
+      "sha256": "76429a13a9b384837e71be70460a1d1dc840a63435823b35932b7e6de6204e92"
+    },
+    {
+      "path": "src/taxrep/targeted.py",
+      "sha256": "65004dd321d04f24ffdf55f02c67545afd5cc12bde74864da7843a78bc824674"
+    },
+    {
+      "path": "scripts/freeze_targeted_extension.py",
+      "sha256": "957c910b4cc9262b0324e0f19022a59c0c7757d26ace5d29b9d514b7da49a9f5"
+    },
+    {
+      "path": "scripts/tmux/start_targeted_t3_repeat.sh",
+      "sha256": "910202f2244754f43354cf6d7f842dea8977e00f99b9e4b80bbf9bcca59f4b1f"
+    },
+    {
+      "path": "protocol/provider_catalog_snapshot_20260711.json",
+      "sha256": "ee2a697b8a9a32d38fac1a76361da1e0b89d8e965fcef5b01fa9c9f5a3f9327c"
+    },
+    {
+      "path": "protocol/provider_limits_snapshot_20260711.md",
+      "sha256": "cc4afca0d2f7033a0f581ee3416eee5c272cc258b74301c959e116c0384dba1d"
+    },
+    {
+      "path": "protocol/provider_snapshot_summary_20260711.json",
+      "sha256": "42bb102c716a73cc1e12c508ed9c99a093edfc86104d0b7f86e02bbf996423af"
+    }
+  ],
+  "completion_call_hard_cap": 3000,
+  "current_generation_commit": "9b8b2a0745140a6d671a9909d1369fc4cc535931",
+  "generated_at_utc": "2026-07-12T04:43:52+00:00",
+  "planned_canonical_calls": 2700,
+  "planned_health_calls": 3,
+  "prompts": {
+    "T0": {
+      "prompt_hash": "1545dcc3a22472441ecd6eba144a00d5753d1b2f034dc1bc7631d7b2e712674f",
+      "rendered_example_hash": "bf1f612f9affc7162e345fc4eba19ea30fc13b0bc0383fa509375208b92bf2ce"
+    },
+    "T3": {
+      "prompt_hash": "890681541a8a46ac7b92ff9d5afeb80fccf1e5c8355ad7eaf1afa4a67fc51c82",
+      "rendered_example_hash": "a3f1596c69e41b92768baf2f266bd52ef6c20b440f817fda13c4631702a6009e"
+    }
+  },
+  "protocol_commit": "ef660c6cb925ebdba4e5f2ebea40fe1bca85db9c",
+  "sample": {
+    "issue_count": 150,
+    "ordered_issue_id_sha256": "ddd50d57b90a581165abe4bc6ffe57f921b6dc19fc164710e4db4e0567d4624a",
+    "set_issue_id_sha256": "ddd50d57b90a581165abe4bc6ffe57f921b6dc19fc164710e4db4e0567d4624a"
+  },
+  "schema_version": 1,
+  "scientific_status": "post-result, budget-constrained, targeted robustness extension",
+  "task_plan": {
+    "cell_count": 18,
+    "cell_counts": [
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "deepseek-v4-flash",
+        "repeat_id": 1,
+        "taxonomy_condition": "T0"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "deepseek-v4-flash",
+        "repeat_id": 2,
+        "taxonomy_condition": "T0"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "deepseek-v4-flash",
+        "repeat_id": 3,
+        "taxonomy_condition": "T0"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "deepseek-v4-flash",
+        "repeat_id": 1,
+        "taxonomy_condition": "T3"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "deepseek-v4-flash",
+        "repeat_id": 2,
+        "taxonomy_condition": "T3"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "deepseek-v4-flash",
+        "repeat_id": 3,
+        "taxonomy_condition": "T3"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "glm-5.2",
+        "repeat_id": 1,
+        "taxonomy_condition": "T0"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "glm-5.2",
+        "repeat_id": 2,
+        "taxonomy_condition": "T0"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "glm-5.2",
+        "repeat_id": 3,
+        "taxonomy_condition": "T0"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "glm-5.2",
+        "repeat_id": 1,
+        "taxonomy_condition": "T3"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "glm-5.2",
+        "repeat_id": 2,
+        "taxonomy_condition": "T3"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "glm-5.2",
+        "repeat_id": 3,
+        "taxonomy_condition": "T3"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "kimi-k2.7-code",
+        "repeat_id": 1,
+        "taxonomy_condition": "T0"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "kimi-k2.7-code",
+        "repeat_id": 2,
+        "taxonomy_condition": "T0"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "kimi-k2.7-code",
+        "repeat_id": 3,
+        "taxonomy_condition": "T0"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "kimi-k2.7-code",
+        "repeat_id": 1,
+        "taxonomy_condition": "T3"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "kimi-k2.7-code",
+        "repeat_id": 2,
+        "taxonomy_condition": "T3"
+      },
+      {
+        "count": 150,
+        "instruction_variant": "P1",
+        "model_id": "kimi-k2.7-code",
+        "repeat_id": 3,
+        "taxonomy_condition": "T3"
+      }
+    ],
+    "conditions": [
+      "T0",
+      "T3"
+    ],
+    "execution_seed": 20260711,
+    "models": [
+      "deepseek-v4-flash",
+      "kimi-k2.7-code",
+      "glm-5.2"
+    ],
+    "repeat_ids": [
+      1,
+      2,
+      3
+    ],
+    "repeat_seeds": [
+      4409,
+      5501,
+      6607
+    ],
+    "rows_per_cell": 150,
+    "task_count": 2700,
+    "task_order_sha256": "45b188787afc4cd9412a78c5c1cf74ab3b0f1646b82561a0a8cd8b6d97d43d34"
+  }
+}

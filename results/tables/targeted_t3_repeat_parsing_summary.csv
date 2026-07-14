@@ -1,0 +1,4 @@
+mode,repeat_averaged_delta_t3_minus_t0,minimum_cell_n
+exact,-0.01452741950840234,30
+lenient,-0.01472495037259987,30
+both_valid,-0.014709787267763173,28

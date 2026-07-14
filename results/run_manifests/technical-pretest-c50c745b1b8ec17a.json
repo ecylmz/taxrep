@@ -1,0 +1,35 @@
+{
+  "checkpoint_path": "results/raw_predictions/technical-pretest-c50c745b1b8ec17a.jsonl",
+  "completed_at_utc": "2026-07-04T18:50:17+00:00",
+  "concurrency": {
+    "by_model": {
+      "deepseek-v4-flash": 1,
+      "glm-5.2": 1,
+      "kimi-k2.7-code": 1
+    },
+    "global": 3
+  },
+  "config_path": "configs/technical_pretest.yaml",
+  "environment": {
+    "captured_at_utc": "2026-07-04T18:49:42+00:00",
+    "git_commit": "3a4bb4d3a9baf3abc88501d108235eda913d8737",
+    "machine": "arm64",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "processor": "arm",
+    "python_version": "3.12.11",
+    "uv_version": "uv 0.7.13 (62ed17b23 2025-06-12)"
+  },
+  "git_commit": "3a4bb4d3a9baf3abc88501d108235eda913d8737",
+  "model_ids": [
+    "deepseek-v4-flash",
+    "kimi-k2.7-code",
+    "glm-5.2"
+  ],
+  "parquet_path": "results/raw_predictions/technical-pretest-c50c745b1b8ec17a.parquet",
+  "protocol_version": "1.2",
+  "run_id": "technical-pretest-c50c745b1b8ec17a",
+  "started_at_utc": "2026-07-04T18:49:42+00:00",
+  "task_count_completed_after_run": 15,
+  "task_count_completed_before_start": 0,
+  "task_count_total": 15
+}

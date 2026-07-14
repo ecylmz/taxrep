@@ -1,0 +1,8 @@
+check,count,note
+exact_normalized_duplicate_groups,4,normalized title+body groups with more than one row across train and test
+exact_cross_split_duplicate_groups,3,exact groups that include at least one test row and at least one train row
+exact_duplicate_groups_with_label_conflict,1,exact duplicate groups with more than one normalized label
+near_duplicate_pairs_char5_cosine_ge_0_98,33,"nearest-neighbor screen over normalized title+body, excluding exact duplicates"
+near_duplicate_cross_split_pairs,16,near-duplicate pairs crossing train/test
+near_duplicate_pairs_with_label_conflict,2,near-duplicate pairs whose labels differ
+cross_project_duplicate_test_issues,0,unique test issues in exact or near-duplicate groups spanning repositories

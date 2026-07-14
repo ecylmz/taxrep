@@ -1,0 +1,47 @@
+{
+  "records": [
+    {
+      "completed_at_utc": "2026-07-04T13:58:21+00:00",
+      "content": "{\"label\":\"bug\"}",
+      "ok": true,
+      "started_at_utc": "2026-07-04T13:58:18+00:00",
+      "usage": {
+        "completion_tokens": 69,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 62,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens": 48,
+        "prompt_tokens_details": null,
+        "total_tokens": 117
+      },
+      "variant": "system_no_sampling"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:58:22+00:00",
+      "error": "Error code: 400 - {'error': {'message': 'Error from provider (Console Go): Upstream request failed', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+      "error_type": "BadRequestError",
+      "ok": false,
+      "started_at_utc": "2026-07-04T13:58:21+00:00",
+      "variant": "system_temp_only"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:58:22+00:00",
+      "error": "Error code: 400 - {'error': {'message': 'Error from provider (Console Go): Upstream request failed', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+      "error_type": "BadRequestError",
+      "ok": false,
+      "started_at_utc": "2026-07-04T13:58:22+00:00",
+      "variant": "system_top_p_only"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:58:23+00:00",
+      "error": "Error code: 400 - {'error': {'message': 'Error from provider (Console Go): Upstream request failed', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+      "error_type": "BadRequestError",
+      "ok": false,
+      "started_at_utc": "2026-07-04T13:58:22+00:00",
+      "variant": "user_temp_top_p"
+    }
+  ]
+}

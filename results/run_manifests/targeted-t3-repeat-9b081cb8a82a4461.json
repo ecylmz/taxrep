@@ -1,0 +1,72 @@
+{
+  "checkpoint_path": "results/raw_predictions/targeted-t3-repeat-9b081cb8a82a4461.jsonl",
+  "completed_at_utc": "2026-07-12T21:21:57+00:00",
+  "completion_call_budget": {
+    "by_kind": {
+      "provider_health": 3,
+      "targeted_inference": 1060
+    },
+    "by_model": {
+      "deepseek-v4-flash": 374,
+      "glm-5.2": 343,
+      "kimi-k2.7-code": 346
+    },
+    "created_at_utc": "2026-07-12T21:01:35+00:00",
+    "hard_cap": 1360,
+    "last_reserved_at_utc": "2026-07-12T21:21:54+00:00",
+    "ledger_path": "results/run_manifests/targeted_t3_repeat_recovery_call_ledger.jsonl",
+    "remaining": 297,
+    "schema_version": 1,
+    "used": 1063
+  },
+  "concurrency": {
+    "by_model": {
+      "deepseek-v4-flash": 4,
+      "glm-5.2": 2,
+      "kimi-k2.7-code": 2
+    },
+    "global": 6
+  },
+  "config_path": "protocol/targeted_t3_repeat_recovery.yaml",
+  "environment": {
+    "captured_at_utc": "2026-07-12T21:02:15+00:00",
+    "git_commit": "4cf2056c3cddc81cdb9e5f81a9f990d6c9d57487",
+    "machine": "arm64",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "processor": "arm",
+    "python_version": "3.12.11",
+    "uv_version": "uv 0.7.13 (62ed17b23 2025-06-12)"
+  },
+  "fatal_stop_reason": null,
+  "git_commit": "4cf2056c3cddc81cdb9e5f81a9f990d6c9d57487",
+  "historical_checkpoint_paths": [
+    "results/raw_predictions/targeted-t3-repeat-663908ad29783a37.jsonl"
+  ],
+  "invocation_id": "targeted-t3-repeat-9b081cb8a82a4461-2026-07-12T210215_0000",
+  "model_ids": [
+    "deepseek-v4-flash",
+    "kimi-k2.7-code",
+    "glm-5.2"
+  ],
+  "parquet_path": "results/raw_predictions/targeted-t3-repeat-9b081cb8a82a4461.parquet",
+  "protocol_version": "1.2",
+  "provider_provenance_segment": "targeted-t3-repeat-access-window-2-recovery",
+  "recovery_budget": {
+    "conservative_revision_http_attempt_upper_bound": 6001,
+    "historical_http_attempt_upper_bound": 4938,
+    "recovery_http_attempts_reserved": 1063,
+    "revision_http_attempt_hard_cap": 6298
+  },
+  "run_id": "targeted-t3-repeat-9b081cb8a82a4461",
+  "started_at_utc": "2026-07-12T21:02:15+00:00",
+  "status": "completed",
+  "task_count_checkpoint_successful_after_run": 1060,
+  "task_count_checkpoint_successful_before_start": 0,
+  "task_count_completed_after_run": 2700,
+  "task_count_completed_before_start": 1640,
+  "task_count_historical_successful": 1640,
+  "task_count_missing_after_run": 0,
+  "task_count_pending_before_start": 1060,
+  "task_count_total": 2700,
+  "unresolved_technical_error_tasks": 0
+}

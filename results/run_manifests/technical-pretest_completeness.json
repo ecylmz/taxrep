@@ -1,0 +1,46 @@
+{
+  "actual_rows": 15,
+  "cells": [
+    {
+      "actual_rows": 5,
+      "complete": true,
+      "expected_rows": 5,
+      "instruction_variant": "P1",
+      "missing_rows": 0,
+      "model_id": "deepseek-v4-flash",
+      "repeat_id": 1,
+      "strict_successes": 5,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "actual_rows": 5,
+      "complete": true,
+      "expected_rows": 5,
+      "instruction_variant": "P1",
+      "missing_rows": 0,
+      "model_id": "kimi-k2.7-code",
+      "repeat_id": 1,
+      "strict_successes": 5,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "actual_rows": 5,
+      "complete": true,
+      "expected_rows": 5,
+      "instruction_variant": "P1",
+      "missing_rows": 0,
+      "model_id": "glm-5.2",
+      "repeat_id": 1,
+      "strict_successes": 5,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    }
+  ],
+  "complete": true,
+  "expected_rows": 15,
+  "missing_rows": 0,
+  "run_type": "technical-pretest",
+  "technical_errors": 0
+}

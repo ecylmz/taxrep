@@ -1,0 +1,40 @@
+{
+  "drop_exact_train_test_duplicates": [
+    "test-0558-c8ff11ed67",
+    "test-0900-26561d3188",
+    "test-0963-72fcefd1dd"
+  ],
+  "drop_near_train_test_duplicates": [
+    "test-0023-d42af8a8a2",
+    "test-0027-21795c596e",
+    "test-0078-1ab8323a88",
+    "test-0354-93e3df0302",
+    "test-0523-18cc84f83d",
+    "test-0529-772ce09807",
+    "test-1243-c39bca50c4",
+    "test-1256-9b0f869230",
+    "test-1372-f36d46f39f"
+  ],
+  "drop_label_conflict_participants": [
+    "test-0317-7284b27587",
+    "test-0597-5504573eae",
+    "test-0963-72fcefd1dd"
+  ],
+  "drop_cross_project_duplicate_participants": [],
+  "drop_all_duplicate_flags": [
+    "test-0023-d42af8a8a2",
+    "test-0027-21795c596e",
+    "test-0078-1ab8323a88",
+    "test-0317-7284b27587",
+    "test-0354-93e3df0302",
+    "test-0523-18cc84f83d",
+    "test-0529-772ce09807",
+    "test-0558-c8ff11ed67",
+    "test-0597-5504573eae",
+    "test-0900-26561d3188",
+    "test-0963-72fcefd1dd",
+    "test-1243-c39bca50c4",
+    "test-1256-9b0f869230",
+    "test-1372-f36d46f39f"
+  ]
+}

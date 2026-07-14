@@ -1,0 +1,9 @@
+{
+  "friedman_t1_t4": {
+    "statistic": 11.719999999999999,
+    "degrees_of_freedom": 3,
+    "p_value": 0.00840653941143198,
+    "n_blocks": 15
+  },
+  "rank_note": "Ranks are computed within each project-by-system block; rank 1 is highest Macro-F1."
+}

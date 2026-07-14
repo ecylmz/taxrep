@@ -1,0 +1,4 @@
+excluded_model,remaining_blocks,mean_enriched_delta_macro_f1,negative_blocks,blocks
+deepseek-v4-flash,10,-0.03600494327070418,10,10
+glm-5.2,10,-0.030209814134325497,8,10
+kimi-k2.7-code,10,-0.019147449533012784,8,10

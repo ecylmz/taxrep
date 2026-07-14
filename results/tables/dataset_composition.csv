@@ -1,0 +1,11 @@
+split,repository,rows,bug,feature,question,missing_or_empty_body
+train,bitcoin/bitcoin,300,100,100,100,0
+train,facebook/react,300,100,100,100,0
+train,microsoft/vscode,300,100,100,100,0
+train,opencv/opencv,300,100,100,100,0
+train,tensorflow/tensorflow,300,100,100,100,0
+test,bitcoin/bitcoin,300,100,100,100,1
+test,facebook/react,300,100,100,100,1
+test,microsoft/vscode,300,100,100,100,0
+test,opencv/opencv,300,100,100,100,0
+test,tensorflow/tensorflow,300,100,100,100,0

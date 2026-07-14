@@ -1,0 +1,22 @@
+run_type: technical-pretest
+freeze_revision: 20260704-output-api1024
+dataset_split: train
+sample:
+  strategy: first_n
+  n: 5
+taxonomy_conditions: [T2]
+instruction_variants: [P1]
+repeats: 1
+temperature: 0.0
+top_p: 1.0
+max_new_tokens: 32
+seed: 20260704
+concurrency:
+  global: 3
+  by_model:
+    deepseek-v4-flash: 1
+    kimi-k2.7-code: 1
+    glm-5.2: 1
+retry:
+  max_attempts: 3
+  timeout_seconds: 120

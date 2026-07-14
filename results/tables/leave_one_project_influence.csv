@@ -1,0 +1,6 @@
+excluded_project,remaining_blocks,mean_enriched_delta_macro_f1,negative_blocks,blocks
+bitcoin/bitcoin,12,-0.028331769525753937,11,12
+facebook/react,12,-0.031496741956116285,10,12
+microsoft/vscode,12,-0.030649438046511213,11,12
+opencv/opencv,12,-0.027598204055911884,10,12
+tensorflow/tensorflow,12,-0.02419419131244412,10,12

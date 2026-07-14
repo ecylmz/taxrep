@@ -1,0 +1,171 @@
+{
+  "records": [
+    {
+      "completed_at_utc": "2026-07-04T13:57:22+00:00",
+      "content": "{\"label\":\"bug\"}",
+      "model_id": "deepseek-v4-flash",
+      "ok": true,
+      "response_model": "deepseek-v4-flash",
+      "started_at_utc": "2026-07-04T13:57:19+00:00",
+      "usage": {
+        "completion_tokens": 94,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 88,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 146,
+        "prompt_tokens": 146,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 240
+      },
+      "variant": "max128_no_seed"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:57:24+00:00",
+      "content": "{\"label\":\"bug\"}",
+      "model_id": "deepseek-v4-flash",
+      "ok": true,
+      "response_model": "deepseek-v4-flash",
+      "started_at_utc": "2026-07-04T13:57:22+00:00",
+      "usage": {
+        "completion_tokens": 63,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 57,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 18,
+        "prompt_tokens": 146,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 128
+        },
+        "total_tokens": 209
+      },
+      "variant": "max256_no_seed"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:57:26+00:00",
+      "content": "",
+      "model_id": "deepseek-v4-flash",
+      "ok": true,
+      "response_model": "deepseek-v4-flash",
+      "started_at_utc": "2026-07-04T13:57:24+00:00",
+      "usage": {
+        "completion_tokens": 128,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 128,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 18,
+        "prompt_tokens": 146,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 128
+        },
+        "total_tokens": 274
+      },
+      "variant": "max128_reasoning_low"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:57:26+00:00",
+      "error": "Error code: 400 - {'error': {'message': 'Error from provider (Console Go): Upstream request failed', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+      "error_type": "BadRequestError",
+      "model_id": "kimi-k2.7-code",
+      "ok": false,
+      "started_at_utc": "2026-07-04T13:57:26+00:00",
+      "variant": "max128_no_seed"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:57:27+00:00",
+      "error": "Error code: 400 - {'error': {'message': 'Error from provider (Console Go): Upstream request failed', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+      "error_type": "BadRequestError",
+      "model_id": "kimi-k2.7-code",
+      "ok": false,
+      "started_at_utc": "2026-07-04T13:57:26+00:00",
+      "variant": "max256_no_seed"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:57:27+00:00",
+      "error": "Error code: 400 - {'error': {'message': 'Error from provider (Console Go): Upstream request failed', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+      "error_type": "BadRequestError",
+      "model_id": "kimi-k2.7-code",
+      "ok": false,
+      "started_at_utc": "2026-07-04T13:57:27+00:00",
+      "variant": "max128_reasoning_low"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:57:29+00:00",
+      "content": "",
+      "model_id": "glm-5.2",
+      "ok": true,
+      "response_model": "frank/GLM-5.2",
+      "started_at_utc": "2026-07-04T13:57:27+00:00",
+      "usage": {
+        "completion_tokens": 128,
+        "completion_tokens_details": null,
+        "estimated_cost": 0,
+        "prompt_tokens": 73,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "total_tokens": 201
+      },
+      "variant": "max128_no_seed"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:57:33+00:00",
+      "content": "{\"label\":\"bug\"}",
+      "model_id": "glm-5.2",
+      "ok": true,
+      "response_model": "frank/GLM-5.2",
+      "started_at_utc": "2026-07-04T13:57:29+00:00",
+      "usage": {
+        "completion_tokens": 208,
+        "completion_tokens_details": null,
+        "estimated_cost": 0,
+        "prompt_tokens": 73,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 64
+        },
+        "reasoning_tokens": 0,
+        "total_tokens": 281
+      },
+      "variant": "max256_no_seed"
+    },
+    {
+      "completed_at_utc": "2026-07-04T13:57:35+00:00",
+      "content": "",
+      "model_id": "glm-5.2",
+      "ok": true,
+      "response_model": "frank/GLM-5.2",
+      "started_at_utc": "2026-07-04T13:57:33+00:00",
+      "usage": {
+        "completion_tokens": 128,
+        "completion_tokens_details": null,
+        "estimated_cost": 0,
+        "prompt_tokens": 73,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 64
+        },
+        "reasoning_tokens": 0,
+        "total_tokens": 201
+      },
+      "variant": "max128_reasoning_low"
+    }
+  ]
+}

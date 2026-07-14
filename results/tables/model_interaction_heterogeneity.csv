@@ -1,0 +1,6 @@
+comparison,min_model_mean_delta,max_model_mean_delta,range_across_model_means,model_count,interpretation
+"mean(T1,T2,T3,T4)-T0",-0.04706730787201689,-0.013352320396634098,0.03371498747538279,3,descriptive condition-by-model heterogeneity; not a formal interaction test
+T1-T0,-0.031064702256140574,-0.012806455977898734,0.018258246278241838,3,descriptive condition-by-model heterogeneity; not a formal interaction test
+T2-T0,-0.04677231455756772,-0.00850857513978318,0.038263739417784534,3,descriptive condition-by-model heterogeneity; not a formal interaction test
+T3-T0,-0.05412594605186647,-0.02293067669631783,0.03119526935554864,3,descriptive condition-by-model heterogeneity; not a formal interaction test
+T4-T0,-0.05630626862249277,-0.009163573772536604,0.04714269484995617,3,descriptive condition-by-model heterogeneity; not a formal interaction test

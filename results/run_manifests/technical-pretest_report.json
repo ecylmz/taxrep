@@ -1,0 +1,43 @@
+{
+  "by_model_condition": [
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 5,
+      "strict_parse_rate": 1.0,
+      "strict_successes": 5,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 5,
+      "strict_parse_rate": 1.0,
+      "strict_successes": 5,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 5,
+      "strict_parse_rate": 1.0,
+      "strict_successes": 5,
+      "taxonomy_condition": "T2",
+      "technical_errors": 0
+    }
+  ],
+  "models": [
+    "deepseek-v4-flash",
+    "glm-5.2",
+    "kimi-k2.7-code"
+  ],
+  "rows": 15,
+  "run_type": "technical-pretest",
+  "status": "present",
+  "strict_parse_rate": 1.0,
+  "strict_parse_successes": 15,
+  "taxonomy_conditions": [
+    "T2"
+  ],
+  "technical_errors": 0,
+  "unique_issues": 5
+}

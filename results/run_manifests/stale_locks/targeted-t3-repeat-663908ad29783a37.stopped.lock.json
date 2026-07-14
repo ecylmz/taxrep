@@ -1,0 +1,51 @@
+{
+  "completion_call_budget": {
+    "by_kind": {
+      "provider_health": 3
+    },
+    "by_model": {
+      "deepseek-v4-flash": 1,
+      "glm-5.2": 1,
+      "kimi-k2.7-code": 1
+    },
+    "created_at_utc": "2026-07-12T04:45:47+00:00",
+    "hard_cap": 3000,
+    "last_reserved_at_utc": "2026-07-12T04:45:51+00:00",
+    "ledger_path": "results/run_manifests/targeted_t3_repeat_call_ledger.jsonl",
+    "remaining": 2997,
+    "schema_version": 1,
+    "used": 3
+  },
+  "concurrency": {
+    "by_model": {
+      "deepseek-v4-flash": 4,
+      "glm-5.2": 2,
+      "kimi-k2.7-code": 2
+    },
+    "global": 6
+  },
+  "config_path": "protocol/targeted_t3_repeat_extension.yaml",
+  "created_at_utc": "2026-07-12T04:46:57+00:00",
+  "environment": {
+    "captured_at_utc": "2026-07-12T04:46:57+00:00",
+    "git_commit": "23d0104f2703d1943029080d5ea8c47c01f701ea",
+    "machine": "arm64",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "processor": "arm",
+    "python_version": "3.12.11",
+    "uv_version": "uv 0.7.13 (62ed17b23 2025-06-12)"
+  },
+  "git_commit": "23d0104f2703d1943029080d5ea8c47c01f701ea",
+  "invocation_id": "targeted-t3-repeat-663908ad29783a37-2026-07-12T044657_0000",
+  "model_ids": [
+    "deepseek-v4-flash",
+    "kimi-k2.7-code",
+    "glm-5.2"
+  ],
+  "protocol_version": "1.2",
+  "provider_provenance_segment": "targeted-t3-repeat-access-window-1",
+  "run_id": "targeted-t3-repeat-663908ad29783a37",
+  "started_at_utc": "2026-07-12T04:46:57+00:00",
+  "task_count_completed_before_start": 0,
+  "task_count_total": 2700
+}

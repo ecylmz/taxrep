@@ -1,0 +1,139 @@
+{
+  "analysis_status": "post-result targeted-extension operational audit from frozen records; no new inference and no gold-label access",
+  "call_budget": {
+    "conservative_revision_http_attempt_upper_bound": 6001,
+    "historical_http_attempt_count_status": "not reconstructible",
+    "historical_http_attempt_mechanical_range": [
+      1643,
+      4938
+    ],
+    "ledger_reservations": 2709,
+    "overall_reconciled": true,
+    "provider_health_reservations": 6,
+    "recovery_outbound_attempt_upper_bound": 1063,
+    "recovery_sdk_max_retries": 0,
+    "retry_attempt_reservations": 0,
+    "revision_http_attempt_hard_cap": 6298,
+    "segments": {
+      "recovery_access_window_2": {
+        "allowed_unmatched_targeted_inference_count": 0,
+        "hard_cap": 1360,
+        "ledger_reservations": 1063,
+        "ledger_segment": "recovery_access_window_2",
+        "overall_reconciled": true,
+        "provider_health_reservations": 3,
+        "raw_target_attempt_ordinals": 1060,
+        "raw_target_ordinals_match_ledger": true,
+        "raw_target_ordinals_reconciled": true,
+        "remaining": 297,
+        "retry_attempt_reservations": 0,
+        "targeted_inference_reservations": 1060,
+        "unmatched_ledger_targeted_inference_count": 0,
+        "used": 1063
+      },
+      "stopped_access_window_1": {
+        "allowed_unmatched_targeted_inference_count": 3,
+        "hard_cap": 3000,
+        "ledger_reservations": 1646,
+        "ledger_segment": "stopped_access_window_1",
+        "overall_reconciled": true,
+        "provider_health_reservations": 3,
+        "raw_target_attempt_ordinals": 1640,
+        "raw_target_ordinals_match_ledger": false,
+        "raw_target_ordinals_reconciled": true,
+        "remaining": 1354,
+        "retry_attempt_reservations": 0,
+        "targeted_inference_reservations": 1643,
+        "unmatched_ledger_targeted_inference_count": 3,
+        "used": 1646
+      }
+    },
+    "targeted_inference_reservations": 2703
+  },
+  "canonical_empty_response_count": 11,
+  "canonical_invalid_output_count": 12,
+  "canonical_parquet_task_count": 2700,
+  "canonical_successful_task_count": 2700,
+  "canonical_task_count": 2700,
+  "determinism": "no generated-at timestamp; inputs, groups, and outputs are sorted; stochastic analysis is not used",
+  "expected_canonical_task_count": 2700,
+  "expected_cell_count": 18,
+  "expected_tasks_per_cell": 150,
+  "gold_labels_accessed": false,
+  "inference_calls_made": 0,
+  "inputs": [
+    {
+      "path": "results/raw_predictions/targeted-t3-repeat-663908ad29783a37.jsonl",
+      "sha256": "0206a2320b9338ac1385cd02edadd3691f0d97728e6d851c6ac8d91da42ebb35"
+    },
+    {
+      "path": "results/raw_predictions/targeted-t3-repeat-663908ad29783a37.parquet",
+      "sha256": "7cd7fa524503a7fcf748e61391f4863b6f6153ee425c8259eda2c44c0d0ee560"
+    },
+    {
+      "path": "results/raw_predictions/targeted-t3-repeat-9b081cb8a82a4461.jsonl",
+      "sha256": "92f8f352bd97b1246479bb7fbdf3c3adb7382985346eb6c2f98d35a6c81e92ea"
+    },
+    {
+      "path": "results/raw_predictions/targeted-t3-repeat-9b081cb8a82a4461.parquet",
+      "sha256": "0a32a3271e6911c90deb9f85ae8e7764a48048996aedf8394dbad362fe7dc30f"
+    },
+    {
+      "path": "results/run_manifests/targeted_t3_repeat_call_budget.json",
+      "sha256": "29033468ed1d8e979a666800a4f76bb4ae3ca2245ae30355fddbd9afac5b57cf"
+    },
+    {
+      "path": "results/run_manifests/targeted_t3_repeat_call_ledger.jsonl",
+      "sha256": "3af9140c8608360442079b976ae61fd7cc7a1311829cb4b21995ac968bee76f2"
+    },
+    {
+      "path": "results/run_manifests/targeted_t3_repeat_recovery_call_budget.json",
+      "sha256": "a3da385a1466ac2f50e6fea9fb2ac23c82d65f121e7855d8db85d75bb93d2f0e"
+    },
+    {
+      "path": "results/run_manifests/targeted_t3_repeat_recovery_call_ledger.jsonl",
+      "sha256": "1946555b918f092c680ffb2be1153fbdc51da0df6c2b1b928b726cb4d0d0b044"
+    }
+  ],
+  "maximum_canonical_tasks_per_cell": 150,
+  "maximum_successful_tasks_per_cell": 150,
+  "minimum_canonical_tasks_per_cell": 150,
+  "minimum_successful_tasks_per_cell": 150,
+  "observed_audit_cell_count": 18,
+  "outputs": {
+    "call_budget_reconciliation": {
+      "path": "results/tables/targeted_t3_repeat_call_budget_audit.csv",
+      "rows": 12,
+      "sha256": "1f3758c4a5040db11d1fbcd96dcb65c7ba030f99eb77ebcb1def87ea2f81815f"
+    },
+    "invocation_provenance": {
+      "path": "results/tables/targeted_t3_repeat_invocation_provenance.csv",
+      "rows": 36,
+      "sha256": "7b5a0f36c3a4e65fff791b15cb974584d2b435db0924d1c8f54e35e248ca887b"
+    },
+    "task_history": {
+      "path": "results/tables/targeted_t3_repeat_task_history.csv",
+      "rows": 18,
+      "sha256": "f544ee4659b50b90689186449d99778600080929755b2a12f5615ed0fc1e700d"
+    },
+    "usage": {
+      "path": "results/tables/targeted_t3_repeat_usage.csv",
+      "rows": 18,
+      "sha256": "8477db8a114eb358a0fc177a3ddbf460288c5348acd63ade9b776ced68ad2ff4"
+    }
+  },
+  "provenance": {
+    "account_identity_available": false,
+    "invocation_ids_represented_by": "chronological ordinal and SHA-256",
+    "raw_invocation_id_values_exposed": false
+  },
+  "raw_checkpoint_record_count": 2700,
+  "recovered_after_terminal_error_task_count": 0,
+  "run_type": "targeted-t3-repeat",
+  "schema_version": "1.0",
+  "summary_path": "results/statistics/targeted_t3_repeat_operational_audit.json",
+  "terminal_error_checkpoint_record_count": 0,
+  "unique_issue_count": 150,
+  "unique_terminal_error_task_count": 0,
+  "unresolved_raw_task_count": 0
+}

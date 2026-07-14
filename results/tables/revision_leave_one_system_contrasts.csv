@@ -1,0 +1,13 @@
+excluded_system,comparison,observed_delta_macro_f1,negative_repository_system_cell_count,remaining_repository_system_cell_count,remaining_repository_count,remaining_system_count,interval_method,analysis_status
+deepseek-v4-flash,T1-T0,-0.026962955940538602,10,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+deepseek-v4-flash,T2-T0,-0.035586519715368733,10,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+deepseek-v4-flash,T3-T0,-0.041356070286678481,10,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+deepseek-v4-flash,T4-T0,-0.040114227140230795,10,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+glm-5.2,T1-T0,-0.021935579117019655,8,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+glm-5.2,T2-T0,-0.027640444848675449,7,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+glm-5.2,T3-T0,-0.038528311374092149,10,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+glm-5.2,T4-T0,-0.032734921197514685,8,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+kimi-k2.7-code,T1-T0,-0.017833832801417683,8,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+kimi-k2.7-code,T2-T0,-0.016454650006476466,7,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+kimi-k2.7-code,T3-T0,-0.025758435608904163,10,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim
+kimi-k2.7-code,T4-T0,-0.016542879715252711,8,10,5,2,none; point-estimate sensitivity only,post-result descriptive sensitivity; no causal or population-inference claim

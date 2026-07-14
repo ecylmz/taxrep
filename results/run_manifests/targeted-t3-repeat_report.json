@@ -1,0 +1,68 @@
+{
+  "by_model_condition": [
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 450,
+      "strict_parse_rate": 1.0,
+      "strict_successes": 450,
+      "taxonomy_condition": "T0",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "rows": 450,
+      "strict_parse_rate": 0.9911111111111112,
+      "strict_successes": 446,
+      "taxonomy_condition": "T3",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 450,
+      "strict_parse_rate": 1.0,
+      "strict_successes": 450,
+      "taxonomy_condition": "T0",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "glm-5.2",
+      "rows": 450,
+      "strict_parse_rate": 0.9977777777777778,
+      "strict_successes": 449,
+      "taxonomy_condition": "T3",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 450,
+      "strict_parse_rate": 1.0,
+      "strict_successes": 450,
+      "taxonomy_condition": "T0",
+      "technical_errors": 0
+    },
+    {
+      "model_id": "kimi-k2.7-code",
+      "rows": 450,
+      "strict_parse_rate": 0.9844444444444445,
+      "strict_successes": 443,
+      "taxonomy_condition": "T3",
+      "technical_errors": 0
+    }
+  ],
+  "models": [
+    "deepseek-v4-flash",
+    "glm-5.2",
+    "kimi-k2.7-code"
+  ],
+  "rows": 2700,
+  "run_type": "targeted-t3-repeat",
+  "status": "present",
+  "strict_parse_rate": 0.9955555555555555,
+  "strict_parse_successes": 2688,
+  "taxonomy_conditions": [
+    "T0",
+    "T3"
+  ],
+  "technical_errors": 0,
+  "unique_issues": 150
+}

@@ -1,0 +1,135 @@
+{
+  "body": {
+    "data": [
+      {
+        "created": 1783407536,
+        "id": "minimax-m3",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "minimax-m2.7",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "minimax-m2.5",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "kimi-k2.7-code",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "kimi-k2.6",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "kimi-k2.5",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "glm-5.2",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "glm-5.1",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "glm-5",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "deepseek-v4-pro",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "deepseek-v4-flash",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "qwen3.7-max",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "qwen3.7-plus",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "qwen3.6-plus",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "qwen3.5-plus",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "mimo-v2-pro",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "mimo-v2-omni",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "mimo-v2.5-pro",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "mimo-v2.5",
+        "object": "model",
+        "owned_by": "opencode"
+      },
+      {
+        "created": 1783407536,
+        "id": "hy3-preview",
+        "object": "model",
+        "owned_by": "opencode"
+      }
+    ],
+    "object": "list"
+  },
+  "captured_at_utc": "2026-07-07T06:58:56+00:00",
+  "endpoint": "https://opencode.ai/zen/go/v1/models",
+  "headers": {
+    "cf-ray": "a174f6af3bc44ce9-BOS",
+    "content-type": "application/json",
+    "date": "Tue, 07 Jul 2026 06:58:56 GMT"
+  },
+  "status_code": 200
+}

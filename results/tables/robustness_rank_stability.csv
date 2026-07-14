@@ -1,0 +1,4 @@
+model_id,cells,cell_pairs,mean_pairwise_kendall_tau_b,min_pairwise_kendall_tau_b,top_condition_change_pairs,top_condition_change_rate,rank_reversals,rank_reversal_opportunities,rank_reversal_rate,unique_top_conditions,analysis_status
+deepseek-v4-flash,9,36,-0.037037037037037056,-1.0,26,0.7222222222222222,56,108,0.5185185185185185,"T0,T2,T4",protocol-specified robustness rank summary completed after result visibility
+glm-5.2,9,36,-0.046296296296296294,-1.0,24,0.6666666666666666,45,85,0.5294117647058824,"T0,T2,T4",protocol-specified robustness rank summary completed after result visibility
+kimi-k2.7-code,9,36,0.33333333333333337,-1.0,14,0.3888888888888889,36,108,0.3333333333333333,"T0,T4",protocol-specified robustness rank summary completed after result visibility

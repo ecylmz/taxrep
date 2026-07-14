@@ -1,0 +1,7 @@
+subset,removed_test_issues,remaining_test_issues,remaining_prediction_rows
+original,0,1500,22500
+drop_exact_train_test_duplicates,3,1497,22455
+drop_near_train_test_duplicates,9,1491,22365
+drop_label_conflict_participants,3,1497,22455
+drop_cross_project_duplicate_participants,0,1500,22500
+drop_all_duplicate_flags,14,1486,22290

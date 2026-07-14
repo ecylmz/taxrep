@@ -1,0 +1,9 @@
+model_id,taxonomy_condition,finish_reason,count
+deepseek-v4-flash,T0,stop,450
+deepseek-v4-flash,T3,length,4
+deepseek-v4-flash,T3,stop,446
+glm-5.2,T0,stop,450
+glm-5.2,T3,stop,450
+kimi-k2.7-code,T0,stop,450
+kimi-k2.7-code,T3,length,7
+kimi-k2.7-code,T3,stop,443

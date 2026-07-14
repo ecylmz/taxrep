@@ -1,0 +1,112 @@
+{
+  "access_window_audit": {
+    "duration_hours": 6,
+    "inference": "none; counts, exact Macro-F1, and invalid rates are descriptive",
+    "rule": "fixed six-hour UTC calendar windows using successful-call start_timestamp; boundaries are [00:00,06:00), [06:00,12:00), [12:00,18:00), and [18:00,24:00) UTC",
+    "status": "post-result descriptive sensitivity; no causal or population-inference claim",
+    "timestamp_field": "start_timestamp"
+  },
+  "analysis_status": "post-result operational audit from frozen predictions; no new inference",
+  "conditions": [
+    "T0",
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "determinism": "no generated-at timestamp; inputs and outputs are sorted; stochastic resampling is not used",
+  "glm_pairwise_audit": {
+    "dimensions": [
+      "provider_response_model",
+      "inferred_resume_segment"
+    ],
+    "inference": "none; matched-subset point estimates only",
+    "rule": "each Tj-T0 contrast uses its own issue-id intersection within the same provenance subset; no five-condition intersection is required"
+  },
+  "historical_crossed_cell_intervals_generated": false,
+  "inputs": [
+    {
+      "path": "data/processed/test_gold.parquet",
+      "sha256": "9aaddfe0ad65b3368c56aebd4ad0a26105658d62b0fc22d286eb3bf3ac0815f1"
+    },
+    {
+      "path": "results/raw_predictions/main-deepseek-v4-flash-4808e61b5f12e833.jsonl",
+      "sha256": "d3913bd98fba3dc084b20c0fc93ebb2da526f4c96b02fe12ef4ca370ed632dcd"
+    },
+    {
+      "path": "results/raw_predictions/main-deepseek-v4-flash-4808e61b5f12e833.parquet",
+      "sha256": "c96ba9c47d8b228b009d76e89b77f332267a1c854d2afbaa5963b4d0a4edb331"
+    },
+    {
+      "path": "results/raw_predictions/main-glm-5.2-b0313953f474306e.jsonl",
+      "sha256": "11e9159a6c2ba6b6f3c651253f3bf60aa7a41d9079eaefbbe94bc50fbee5a6e7"
+    },
+    {
+      "path": "results/raw_predictions/main-glm-5.2-b0313953f474306e.parquet",
+      "sha256": "d04b52b46dfe139203ce467e8ca35d1a7b7e5c1f1cf367fa05a8d4d08168e7a7"
+    },
+    {
+      "path": "results/raw_predictions/main-kimi-k2.7-code-8a02771c3069f199.jsonl",
+      "sha256": "25bd602f9d350cd27872641d79bfa5d25d1bf37b72b93d15b0b48b29cf68e788"
+    },
+    {
+      "path": "results/raw_predictions/main-kimi-k2.7-code-8a02771c3069f199.parquet",
+      "sha256": "3b40c227302a6aacb1c98d779ee31649103dccdccf8faaab554604e5284607c2"
+    },
+    {
+      "path": "results/raw_predictions/robustness-60231896ce790e34.parquet",
+      "sha256": "8f19133e8d22f1e344d3bff17277f4d134ac491e039898743581b02be9cf385d"
+    }
+  ],
+  "main_canonical_task_count": 22500,
+  "outputs": {
+    "access_window_sensitivity": {
+      "path": "results/tables/revision_access_window_sensitivity.csv",
+      "rows": 35,
+      "sha256": "49e3a68b9e71bc67fd264b952876661a5d1108b8fa231eb0efd2d53d16005783"
+    },
+    "glm_pairwise_provenance_sensitivity": {
+      "path": "results/tables/revision_glm_pairwise_provenance_sensitivity.csv",
+      "rows": 20,
+      "sha256": "fb1436925299055c95d590f7d8d759895798989bca46a70e9aca3ec9519ce4ad"
+    },
+    "invocation_provenance_by_system_condition": {
+      "path": "results/tables/revision_invocation_provenance_by_system_condition.csv",
+      "rows": 40,
+      "sha256": "e38f020825a03da2d974d528ecc097ec2f7f0653921f7a927242baa4e970ecbe"
+    },
+    "leave_one_repository_contrasts": {
+      "path": "results/tables/revision_leave_one_repository_contrasts.csv",
+      "rows": 20,
+      "sha256": "5dbd0d6536aad6d467b6b1da88da75d86d34abde47aee22ac98f61ed002ded18"
+    },
+    "leave_one_system_contrasts": {
+      "path": "results/tables/revision_leave_one_system_contrasts.csv",
+      "rows": 12,
+      "sha256": "27a7d6808127352c761f9dcea8c8b1700972ba76ba249c731010b72e0f4cf21e"
+    },
+    "main_task_history_by_system_condition": {
+      "path": "results/tables/revision_main_task_history_by_system_condition.csv",
+      "rows": 15,
+      "sha256": "c59ce707954abeeac90b67eb91386c956cecda88739da2e0e03aa591dcfb1f33"
+    },
+    "response_model_by_system_condition": {
+      "path": "results/tables/revision_response_model_by_system_condition.csv",
+      "rows": 25,
+      "sha256": "3918961e5a6478816e9052380bf60e0856ceeb1a873f7786272b2332d8a73c82"
+    },
+    "robustness_sample_canonical_deltas": {
+      "path": "results/tables/revision_robustness_sample_canonical_deltas.csv",
+      "rows": 4,
+      "sha256": "53260b4a6ff15730d6041eb6f90fe927baa01f62bb6605d12eec2a8f14a1aabb"
+    }
+  },
+  "provenance_audit": {
+    "account_identity_available": false,
+    "raw_invocation_marker_values_exposed": false,
+    "rule": "chronological ordinal within system of the legacy hardware_snapshot_id invocation marker; raw marker values are suppressed and no account identity is inferred"
+  },
+  "robustness_sample_issue_count": 150,
+  "schema_version": "1.0",
+  "summary_path": "results/statistics/revision_audit.json"
+}

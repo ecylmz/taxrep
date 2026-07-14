@@ -1,0 +1,66 @@
+{
+  "baseline": "TF-IDF + Linear SVM",
+  "training_rows": 1500,
+  "rows": [
+    {
+      "repository": "__global__",
+      "n": 1500,
+      "macro_f1": 0.7470957798125412,
+      "mcc": 0.6226740982589838,
+      "balanced_accuracy": 0.7480000000000001,
+      "accuracy": 0.748,
+      "invalid_rate": 0.0,
+      "preprocessing": "title newline body; missing values as empty strings; TF-IDF word 1-2grams min_df=2 max_features=100000; LinearSVC C=1.0 random_state=20260704"
+    },
+    {
+      "repository": "bitcoin/bitcoin",
+      "n": 300,
+      "macro_f1": 0.7338141570842122,
+      "mcc": 0.6081400276417988,
+      "balanced_accuracy": 0.7366666666666667,
+      "accuracy": 0.7366666666666667,
+      "invalid_rate": 0.0,
+      "preprocessing": "same as global"
+    },
+    {
+      "repository": "facebook/react",
+      "n": 300,
+      "macro_f1": 0.7854497719073213,
+      "mcc": 0.6892985423658207,
+      "balanced_accuracy": 0.79,
+      "accuracy": 0.79,
+      "invalid_rate": 0.0,
+      "preprocessing": "same as global"
+    },
+    {
+      "repository": "microsoft/vscode",
+      "n": 300,
+      "macro_f1": 0.72201583349911,
+      "mcc": 0.5892082264837754,
+      "balanced_accuracy": 0.7233333333333333,
+      "accuracy": 0.7233333333333334,
+      "invalid_rate": 0.0,
+      "preprocessing": "same as global"
+    },
+    {
+      "repository": "opencv/opencv",
+      "n": 300,
+      "macro_f1": 0.7498433757140225,
+      "mcc": 0.6261594685190502,
+      "balanced_accuracy": 0.75,
+      "accuracy": 0.75,
+      "invalid_rate": 0.0,
+      "preprocessing": "same as global"
+    },
+    {
+      "repository": "tensorflow/tensorflow",
+      "n": 300,
+      "macro_f1": 0.7385043806096437,
+      "mcc": 0.6133932719528721,
+      "balanced_accuracy": 0.7400000000000001,
+      "accuracy": 0.74,
+      "invalid_rate": 0.0,
+      "preprocessing": "same as global"
+    }
+  ]
+}
