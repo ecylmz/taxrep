@@ -89,8 +89,9 @@ shasum -a 256 -c MANIFEST.sha256
 
 `ARTIFACT_INVENTORY.json` provides file-level categories, sizes, and hashes.
 `GITHUB_DIRECTORY_VERIFICATION.json` records the public-tree security and size
-checks. The immutable code-and-results snapshot commit is recorded after the
-history rewrite in this README and `SOURCE_SNAPSHOT.json`.
+checks. The immutable code-and-results snapshot is commit
+[`3987a7ed11ce462233c43c3edada9619ee41a09d`](https://github.com/ecylmz/taxrep/commit/3987a7ed11ce462233c43c3edada9619ee41a09d),
+also recorded in `SOURCE_SNAPSHOT.json`.
 
 ## Data and publication boundary
 

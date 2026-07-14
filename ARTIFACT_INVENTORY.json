@@ -45,15 +45,15 @@
     {
       "category": "root",
       "path": "README.md",
-      "sha256": "a88e2cd25625c8b1a711f9a1c8ad82d04936a7a4d8d77b52dcc882e8846b2395",
-      "size_bytes": 4231,
+      "sha256": "015295ac313ed968e60d45ffee852ac0836fc8dab73623ad001322dd4a5e71c5",
+      "size_bytes": 4322,
       "source_sha256": "b210cae87c6d3b050adfab816792a3bcc46d4fa18d304d3aa569b25411a5085e"
     },
     {
       "category": "root",
       "path": "SOURCE_SNAPSHOT.json",
-      "sha256": "fa5c5d7deba5b1fbf89b4f210427162e1669baa967f4445a764446633ba54632",
-      "size_bytes": 441,
+      "sha256": "47a4e508c594c197c7cf303f4393a73eba8b13856faac0ae18a8c9f31dee5bd3",
+      "size_bytes": 512,
       "source_sha256": null
     },
     {
@@ -269,8 +269,8 @@
     {
       "category": "root",
       "path": "experiment/targeted_t3_repeat_extension.md",
-      "sha256": "fc4c878cf6e5e3ad9431e6a89bc70b7856e90f061f4ebe99d18aadd22d55a070",
-      "size_bytes": 8081,
+      "sha256": "d28052dad2c6bbed4fd264a3f564bc8a2b464fb6990e30b19eaf1722d1a4673f",
+      "size_bytes": 8080,
       "source_sha256": null
     },
     {
