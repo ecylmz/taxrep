@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "A Paired Fixed-Benchmark Study of Operational Taxonomy Enrichment for LLM-Based Issue Classification"
+title: "Evaluating Taxonomy Prompt Enrichment for Zero-Shot LLM-Based Issue Classification"
 message: "If you use this artifact, please cite the associated paper once available."
 authors:
   - family-names: "Yilmaz"

@@ -1,7 +1,7 @@
 # TAXREP Experiment Code and Results
 
 This repository contains the public experiment code and result artifacts for
-the article **A Paired Fixed-Benchmark Study of Operational Taxonomy Enrichment for LLM-Based Issue Classification**.
+the article **Evaluating Taxonomy Prompt Enrichment for Zero-Shot LLM-Based Issue Classification**.
 
 Repository: <https://github.com/ecylmz/taxrep>
 

@@ -24,9 +24,9 @@
     {
       "category": "root",
       "path": "CITATION.cff",
-      "sha256": "f12a40aeeeeeb4e2cd9b83cb8de0cbc6cbfd70a24f6cd3e9394131ac1477a1ef",
-      "size_bytes": 500,
-      "source_sha256": "56dc339edbcc774cf0135496d7942b0f807cd1589e96276cc643909f4373749c"
+      "sha256": "ebd240ddac4478ec72d8644a37b1b22ab3bac073e748f14f7e1d1faf9bb64279",
+      "size_bytes": 482,
+      "source_sha256": "478b64fbc9c74f23e4314ad40f65f3a152b2b16393370e099f7b5841aaf4f6b4"
     },
     {
       "category": "root",
@@ -45,8 +45,8 @@
     {
       "category": "root",
       "path": "README.md",
-      "sha256": "015295ac313ed968e60d45ffee852ac0836fc8dab73623ad001322dd4a5e71c5",
-      "size_bytes": 4322,
+      "sha256": "83d70cdc4d697d7f326619f2d71f51880920beed2c3ed11b4baf6e99944d7d86",
+      "size_bytes": 4304,
       "source_sha256": "b210cae87c6d3b050adfab816792a3bcc46d4fa18d304d3aa569b25411a5085e"
     },
     {
